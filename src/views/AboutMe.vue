@@ -9,12 +9,13 @@
 <div>
     <h2 class="aboutMeTitle">
       My name is Nicole Nguyen, and my love for coding started when I was introduced <br>
-      to Xanga. I was able to continue gaining more experiencewith MySpace. I didn't <br>
-      realize that coding was a career choice, instead ventured into veterinarian medicine <br>
-      and healthcare. I developed skills in relationship building, creating solutions, and<br>
-      working across teams. I am very friendly and easy to work with. I just completed a 14 <br>
-      weeks full stack software develpoment bootcamp. I’m ready to bring my love of code <br>
-      and my skills to a technology team, where I can continue creating customized products and grow. <br>
+      to Xanga, which allowed me to costumized my back ground by using HTML and CSS . <br>
+      I was then able to continue gaining more experience in HTML and CSS through MySpace.  <br>
+      I didn't realize that coding was a career choice, instead ventured into veterinarian  <br>
+      medicine and healthcare. I developed skills in relationship building, creating solutions, and<br>
+      working across teams. I am very friendly, easy to work with, and easy going. I just completed a 14 <br>
+      weeks full stack software develpoment bootcamp. I’m ready to bring my love of code and<br>
+      my skills to a technology team, where I can continue creating customized products and grow. <br>
     </h2>
 </div>
 <h3> <u>TECHNICAL SKILLS: </u><br>
@@ -58,7 +59,7 @@ export default {
 .headshotImage {
   border-radius: 50%;
   width: 200px;
-  height: 300px;
+  height: 280px;
   border: 5px solid hsl(34, 50%, 60%);
 }
 </style>
