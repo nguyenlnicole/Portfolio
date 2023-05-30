@@ -17,12 +17,13 @@
       weeks full stack software develpoment bootcamp. I’m ready to bring my love of code and<br>
       my skills to a technology team, where I can continue creating customized products and grow. <br>
     </h2>
+
 </div>
 <h3> <u>TECHNICAL SKILLS: </u><br>
  Web Application Development: Java, HTML, CSS, JavaScript, Spring Boot, Vue.js <br>
 Database Programming: JDBC, Table Design, SQL, PostgreSQL, E/R diagrams <br>
 Development tools and techniques: Agile, Unit Testing (JUnit), Integration Testing, Git, IntelliJ <br> </h3>
-
+ <br>
 <div>
 
 </div>
