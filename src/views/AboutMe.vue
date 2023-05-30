@@ -8,12 +8,12 @@
 
 <div>
     <h2 class="aboutMeTitle">
-      My name is Nicole Nguyen, and my love for coding started when I was introduced <br>
-      to Xanga, which allowed me to costumized my back ground by using HTML and CSS . <br>
-      I was then able to continue gaining more experience in HTML and CSS through MySpace.  <br>
-      I didn't realize that coding was a career choice, instead ventured into veterinarian  <br>
-      medicine and healthcare. I developed skills in relationship building, creating solutions, and<br>
-      working across teams. I am very friendly, easy to work with, and easy going. I just completed a 14 <br>
+      My name is Nicole Nguyen. My love for coding started when I was introduced to Xanga, <br>
+      which allowed me to costumized my back ground by using HTML and CSS I was then  <br>
+      able to continue gaining more experience in HTML and CSS through MySpace. I didn't    <br>
+      realize that coding was a career choice, instead I ventured into veterinarian medicine and <br>
+      healthcare. I developed skills in relationship building, creating solutions, and working <br>
+      across teams. I am very friendly, easy to work with, and easy going. I just completed a 14 <br>
       weeks full stack software develpoment bootcamp. I’m ready to bring my love of code and<br>
       my skills to a technology team, where I can continue creating customized products and grow. <br>
     </h2>
