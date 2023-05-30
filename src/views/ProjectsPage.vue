@@ -13,7 +13,7 @@
       <a href="https://github.com/nguyenlnicole/PortfolioWebPage" target="_blank">Portfolio</a><br>
   
       This portfolio that you are currently looking at. I built it from scratch. It is meant to display infromation on myself <br>
-       my projects, and my contact information. I utilized Javascript, Vue.js, html, CSS, and Java. 
+       my projects, and my contact information. I utilized Javascript, Vue.js, html, and CSS. 
       </div>
 
     <div class= "flashCards">
@@ -27,7 +27,7 @@
         <a href="https://github.com/nguyenlnicole/magic8Ball/tree/main/magic8ball" target="_blank">8 Ball</a><br>
         First project done that I was given a starter code. You can ask a yes or no question, and itll reply It  <br>
         is small programming application in Java, that allows practice using boolean expression, pseudo code that  <br>
-        generates random numbers, and to print information out to the user.<br>
+        generates random numbers, and allows the user to print information out to the user.<br>
      
       </div>
 <br>
