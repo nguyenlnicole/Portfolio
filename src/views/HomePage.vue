@@ -1,7 +1,7 @@
 <template>
   <body>
-    <h1 class="name">NICOLE NGUYEN</h1>
-    <h2 class="title">Software Engineer</h2>
+    <h1 class="homeName">NICOLE NGUYEN</h1>
+    <h2 class="homeTitle">Software Engineer</h2>
   </body>
 </template>
 
@@ -12,14 +12,14 @@ export default {
 </script>
 
 <style>
-.name {
+.homeName {
   font-family:  Alegreya Sans Regular, sans-serif; 
   font-size: 45px;
   margin-top: -300px; 
   
 }
 
-.title {
+.homeTitle {
   font-family:Source Sans Pro  , sans-serif; 
   margin-top: -10px; 
   font-size: 30px;
