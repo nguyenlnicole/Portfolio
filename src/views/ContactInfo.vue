@@ -31,26 +31,31 @@ export default {
 </script>
 
 <style>
-.contactTitle { 
-  font-size: 55px;
-  margin-top: -500px; 
+.contactTitle {  
+ font-size: 45px;
+ margin-right: 500px;
+ font-size: 45px;
 }
 .emailInfo { 
-  font-size: 25px;
-  margin-top:30px; 
+margin-right: 500px;  
+font-size: 25px;
+margin-bottom: 50px; 
 }
 .router-links-linkedin {
-  font-size: 25px;
-  margin-top: 50px; 
+ margin-right: 500px; 
+ font-size: 25px;
+ margin-bottom: 50px; 
 }
 
   .router-links-github {
+  margin-right: 500px;
   font-size: 25px;
-  margin-top: 50px; 
+  margin-bottom: 50px; 
 }
 
 .resume-router-link {
-  font-size: 25px;
-  margin-top: 50px;
-}
+ margin-right: 500px; 
+ font-size: 25px;
+ margin-bottom: 50px; 
+} 
 </style>

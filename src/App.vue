@@ -1,10 +1,11 @@
 <template>
-  <div>
-    <nav>
-      <router-link :to="{ name: 'homePage' }" class="nav-link">Home.</router-link><br>
-      <router-link :to="{ name: 'aboutMe' }" class="nav-link">About.</router-link> <br>
-      <router-link :to="{ name: 'projectsPage' }" class="nav-link">Projects.</router-link><br>
-      <router-link :to="{ name: 'contactInfo' }" class="nav-link">Contact.</router-link> <br>
+  <div id="app">
+    <img :src="require('./prideFlowerLogo.png')" alt="Flower Logo" class="flower-logo">
+    <nav class="nav-container">
+      <router-link :to="{ name: 'homePage' }" class="nav-link">Home</router-link><br>
+      <router-link :to="{ name: 'aboutMe' }" class="nav-link">About</router-link><br>
+      <router-link :to="{ name: 'projectsPage' }" class="nav-link">Projects</router-link><br>
+      <router-link :to="{ name: 'contactInfo' }" class="nav-link">Contact</router-link><br>
     </nav>
 
     <router-view></router-view>
@@ -19,26 +20,37 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #080c0f;
-  margin-top: 60px; 
+  margin-top: 60px;
   display: flex;
-  justify-content: flex
+  justify-content: center;
+  align-items: flex-start; /* Align items to the top of the container */
+  min-height: 100vh;
 }
 
-nav {
-  text-align: center;
-  margin-top: 200px;
-  margin-left: 500px;
-  margin-right: 5px;
+.flower-logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 100px;
+  height: auto;
+}
+
+.nav-container {
+  position: absolute;
+  top: 300px;
+  right: 30px;
   max-width: 300px;
+  text-align: right;
 }
 
 .nav-link {
-  margin-left: 750px;
-  font-size: 90px;
+  margin-bottom: 10px;
+  font-size: 20px;
   text-decoration: none;
   color: #0a0a0a;
-  display: inline-block;
+  display: block;
   transition: transform 0.3s ease;
+  font-size: 80px;
 }
 
 .nav-link:hover {
@@ -46,7 +58,7 @@ nav {
 }
 
 .home-page {
-  font-family: "Dm Serif Text Italic", sans-serif;
+  font-family: "DM Serif Text Italic", sans-serif;
 }
 
 .about-page {
@@ -59,5 +71,25 @@ nav {
 
 .contact-page {
   font-family: "Font4", sans-serif;
+}
+
+/* Media queries for responsive design */
+
+@media (max-width: 768px) {
+  #app {
+    align-items: center; /* Center align items vertically */
+  }
+
+  .nav-container {
+    position: relative;
+    top: 0;
+    right: 0;
+    margin-top: 20px;
+  }
+
+  .nav-link {
+    margin-left: 0; /* Remove the left margin */
+    font-size: 16px; /* Reduce font size for smaller screens */
+  }
 }
 </style>
