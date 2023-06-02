@@ -4,29 +4,30 @@
 
     <div class="ChatRHN">
       <a href="https://github.com/raulharo/ChatRHN" target="_blank">ChatRHN (still in progress)</a><br>
-      Paired-Project with one other person. It is the sassy version of ChatGpt. User can ask the <br>
-      program questions, but it will respond in a sassy manner without answering the question. <br>
-      We utilized Java, postgreSQL, SQL, API, tokens, HTML, CSS, and Jaascript.<br>
+      Paired- programming application. Application is the sassy version of ChatGpt where users can ask questions, <br>
+      only to receive sassy responses without any real answers. Our project showcases the power of Java, postgreSQL, <br>
+      SQL, APIs, tokens, HTML, CSS, and JavaScript. Get ready to be entertained by this compact sass extravaganza!<br>
     </div>
 
     <div class="portfolio">
       <a href="https://github.com/nguyenlnicole/PortfolioWebPage" target="_blank">Portfolio</a><br>
-      This portfolio that you are currently looking at. I built it from scratch. It is meant to display  <br>
-      infromation on myself my projects, and my contact information. I utilized Javascript, Vue.js, html, and CSS.
+      Self-built portfolio, what your currently on! This showcase, created from scratch, displays information <br>
+      about me, my projects, and how to contact me. Powered by Javascript, Vue.js, HTML, and CSS, it embodies my <br>
+      unique blend of creativity and technical skills. Experience the captivating design and seamless functionality <br>
+      of my portfolio.<br>
     </div>
 
     <div class="flashCards">
       <a href="https://github.com/nguyenlnicole/FlashCards" target="_blank">Flash Cards</a><br>
-      My first solo project that I built from scratch. It is quiz-like application in Java, using the object of  <br>
-      scanner, conditional statement, and method for printing out messages randomly. This is meant to help <br>
-      students study Java voacabulary and codes
+       Java-based quiz application designed to help students study Java vocabulary and code snippets. Using<br>
+       scanners, conditionals, and random message printing, this application offers an interactive learning <br>
+       experience. Get ready to level up your Java skills with my immersive quiz application!<br>
     </div>
 
     <div class="eightball">
       <a href="https://github.com/nguyenlnicole/magic8Ball/tree/main/magic8ball" target="_blank">8 Ball</a><br>
-      First project done that I was given a starter code. User can ask it a yes or no question, and it will reply It  <br>
-      is small programming application in Java, that allows practice using boolean expression, pseudo code that  <br>
-      generates random numbers, and allows the user to print information out to the user.<br>
+      Java application that allows you to practice boolean expressions, pseudo code, and random number generation, <br>
+      with the ability to print information directly to the user.<br>
     </div>
   </div>
 </template>
