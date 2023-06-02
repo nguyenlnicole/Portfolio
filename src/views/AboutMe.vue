@@ -10,13 +10,20 @@
 
     <div class="aboutMeTitle">
       <h2>
-        My name is Nicole Nguyen. My love for coding started when I was introduced to Xanga, which allowed me to customize <br>
-        my background using HTML and CSS. I was then able to continue gaining more experience in HTML and CSS through <br>
-        MySpace. I didn't realize that coding was a career choice; instead, I ventured into veterinarian medicine and <br>
-        healthcare. I developed skills in relationship building, creating solutions, and working across teams. I am very <br>
-        friendly, easy to work with, and easy going. I just completed a 14-week full stack software development boot camp. <br>
-        I’m ready to bring my love of code and my skills to a technology team, where I can continue creating customized
-        products and grow. <br>
+        Hello, I'm Nicole Nguyen. My passion for coding blossomed during my early encounters with Xanga, where <br>
+        I discovered the joy of customizing backgrounds using HTML and CSS. This led me to further explore HTML <br>
+        and CSS through platforms like MySpace. Initially, I didn't realize that coding could be a viable career <br>
+        path. Instead, I embarked on a journey in veterinary medicine and healthcare, honing my skills in<br>
+        relationship building, problem-solving, and cross-team collaboration. Known for my friendly and easy-going <br>
+        nature, I thrive in collaborative environments.<br>
+
+      <br>
+        Recently, I successfully completed a 14-week full stack software development boot camp, equipping me with a <br>
+        comprehensive skill set. Now, I'm eager to channel my love for coding and leverage my abilities within a <br>
+        technology team. I aspire to contribute to the creation of customized products and foster continuous growth.<br>
+        <br>
+
+        If you're seeking a passionate and skilled addition to your team, I'm excited to explore opportunities with you."<br>
       </h2>
     </div>
 
@@ -39,6 +46,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
+   margin-top:60px;
 }
 
 .aboutMe {

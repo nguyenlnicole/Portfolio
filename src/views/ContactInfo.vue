@@ -35,6 +35,7 @@ export default {
  font-size: 45px;
  margin-right: 500px;
  font-size: 45px;
+ margin-top:100px;
 }
 .emailInfo { 
 margin-right: 500px;  
