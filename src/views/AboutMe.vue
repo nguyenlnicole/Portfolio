@@ -10,20 +10,23 @@
 
     <div class="aboutMeTitle">
       <h2>
-        Hello, I'm Nicole Nguyen. My passion for coding blossomed during my early encounters with Xanga, where <br>
-        I discovered the joy of customizing backgrounds using HTML and CSS. This led me to further explore HTML <br>
-        and CSS through platforms like MySpace. Initially, I didn't realize that coding could be a viable career <br>
-        path. Instead, I embarked on a journey in veterinary medicine and healthcare, honing my skills in<br>
-        relationship building, problem-solving, and cross-team collaboration. Known for my friendly and easy-going <br>
+        Hello, I'm Nicole Nguyen. My passion for coding blossomed during my early encounters <br>
+        with Xanga, where I discovered the joy of customizing backgrounds using HTML and CSS. <br>
+        This led me to further explore HTML and CSS through platforms like MySpace. Initially,<br>
+        I didn't realize that coding could be a viable career path. Instead, I embarked on a <br>
+        journey in veterinary medicine and healthcare, honing my skills in relationship building,<br> 
+        problem-solving, and cross-team collaboration. Known for my friendly and easy-going <br>
         nature, I thrive in collaborative environments.<br>
 
       <br>
-        Recently, I successfully completed a 14-week full stack software development boot camp, equipping me with a <br>
-        comprehensive skill set. Now, I'm eager to channel my love for coding and leverage my abilities within a <br>
-        technology team. I aspire to contribute to the creation of customized products and foster continuous growth.<br>
+        Recently, I successfully completed a 14-week full stack software development boot camp,<br> 
+        equipping me with a comprehensive skill set. Now, I'm eager to channel my love for coding <br>
+        and leverage my abilities within a technology team. I aspire to contribute to the creation <br>
+        of customized products and foster continuous growth.<br>
         <br>
 
-        If you're seeking a passionate and skilled addition to your team, I'm excited to explore opportunities with you."<br>
+        If you're seeking a passionate and skilled addition to your team, I'm excited to explore <br>
+        opportunities with you."<br>
       </h2>
     </div>
 
