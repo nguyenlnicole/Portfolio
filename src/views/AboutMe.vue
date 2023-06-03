@@ -85,7 +85,7 @@
 
 .techSkills {
   margin-top: 10px;
-  font-size: 20px;
+  font-size: 18px;
   margin-right: 500px;
 }
 </style>

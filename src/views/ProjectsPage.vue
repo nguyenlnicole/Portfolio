@@ -4,7 +4,7 @@
 
     <div class="ChatRHN">
       <a href="https://github.com/raulharo/ChatRHN" target="_blank">ChatRHN (still in progress)</a><br>
-      Paired-programming application. Application is the sassy version of ChatGpt where users <br>
+      Paired-programming application. Application that is the sassy version of ChatGpt where users <br>
       can ask questions, only to receive sassy responses without any real answers. Our project<br>
       showcases the power of Java, postgreSQL, SQL, APIs, tokens, HTML, CSS, and JavaScript. <br>
       Get ready to be entertained by this compact sass extravaganza!<br>
