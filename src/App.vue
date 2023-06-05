@@ -88,8 +88,8 @@
   }
 
   .nav-link {
-    margin-left: 0; /* Remove the left margin */
-    font-size: 16px; /* Reduce font size for smaller screens */
+    margin-left: 0; 
+    font-size: 16px; 
   }
 }
 

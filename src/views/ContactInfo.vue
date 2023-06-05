@@ -64,7 +64,7 @@ margin-bottom: 50px;
   .container {
     justify-content: flex-end;
     text-align: right;
-    padding-right: 30px; /* Add padding to the right */
+    padding-right: 30px; 
   }
 
   .contactTitle {

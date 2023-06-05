@@ -99,7 +99,7 @@
   .container {
     justify-content: flex-end;
     text-align: right;
-    padding-right: 30px; /* Add padding to the right */
+    padding-right: 30px; 
   }
 
   .projectTitle {
@@ -118,7 +118,7 @@
   }
 
   .nav-link {
-    margin-right: 0; /* Remove the right margin */
+    margin-right: 0; 
     text-align: right;
   }
 
