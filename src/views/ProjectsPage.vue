@@ -14,7 +14,7 @@
     </div>
 
     <div class="PetShelterWebpage">
-      <a href="https://github.com/raulharo/ChatRHN" target="_blank">Pet Shelter WebPage</a><br>
+     <h3>Pet Shelter WebPage (in prgorss, will be completed and available 6/8/2023)</h3><br>
       Our collaborative web development project resulted in a comprehensive webpage that connects <br>
       potential pet adopters with available pets, facilitates volunteer sign-ups, displays detailed <br>
       pet listings and shelter information. Additionally, the website includes robust admin features,<br>
@@ -82,5 +82,11 @@
 .eightball {
   margin-right: 10px;
   font-weight: bold;
+}
+
+.PetShelterWebpage h3 {
+  margin-top:10px;
+  margin-bottom: -20px;
+  color: rgb(139, 3, 133);
 }
 </style>
