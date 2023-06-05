@@ -59,4 +59,27 @@ margin-bottom: 50px;
  font-size: 25px;
  margin-bottom: 50px; 
 } 
+
+@media (max-width: 768px) {
+  .container {
+    justify-content: flex-end;
+    text-align: right;
+    padding-right: 30px; /* Add padding to the right */
+  }
+
+  .contactTitle {
+    font-size: 30px;
+    margin-right: 30px;
+    text-align: right;
+  }
+
+  .emailInfo,
+  .router-links-linkedin,
+  .router-links-github,
+  .resume-router-link {
+    margin-right: 30px;
+    font-size: 20px;
+    text-align: right;
+  }
+}
 </style>
