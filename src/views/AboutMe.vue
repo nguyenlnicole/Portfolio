@@ -19,10 +19,12 @@
         nature, I thrive in collaborative environments.<br>
 
       <br>
-        Recently, I successfully completed a 14-week full stack software development boot camp,<br> 
-        equipping me with a comprehensive skill set. Now, I'm eager to channel my love for coding <br>
-        and leverage my abilities within a technology team. I aspire to contribute to the creation <br>
-        of customized products and foster continuous growth.<br>
+        Recently, I successfully completed a 14-week full stack software development bootcamp,<br> 
+        equipping me with a comprehensive skill set. I am currently undergoing technical <br>
+         <br> 
+        in full stack technologies.I'm eager to channel my love for coding and leverage my <br> 
+        abilities within avtechnology team. I aspire to contribute to the creation of customized <br> 
+        products and foster continuous growth.<br>
         <br>
 
         If you're seeking a passionate and skilled addition to your team, I'm excited to explore <br>
