@@ -2,6 +2,9 @@
   <div>
     <h1 class="projectTitle">Projects</h1>
 
+    <div class="scrollableSection">
+
+<div class="scrollBox">
     <div class="chatRHN">
       <a href="https://github.com/raulharo/ChatRHN" target="_blank">ChatRHN (still in progress)</a><br>
       Paired-programming application. Application that is the sassy version of ChatGpt where users <br>
@@ -41,6 +44,8 @@
       Java application that allows you to practice boolean expressions, pseudo code, and random number <br>
       generation, with the ability to print information directly to the user.<br>
     </div>
+    </div>
+  </div>
   </div>
 </template>
 
@@ -52,12 +57,30 @@
   margin-top:100px;
 }
 
+.scrollableSection {
+  margin-right: 300px;
+  font-weight: bold;
+  overflow-y: auto;
+  max-height: 560px;
+  margin-left: 10px;
+  margin-bottom: 60px;
+  
+}
+
+.scrollBox {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  
+}
+
+
 .chatRHN,
 .PetShelterWebpage,
 .portfolio,
 .flashCards,
 .eightball {
-  margin-right: 300px;
+  margin-right: 10px;
   font-weight: bold;
 }
 </style>
