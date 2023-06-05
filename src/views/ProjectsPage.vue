@@ -108,13 +108,13 @@
   }
 
   .scrollableSection {
-    margin-right: 30px;
+    margin-right: -10px;
     font-size: 12px; 
   }
 
   .scrollBox {
     margin-right: 20px;
-    width: 200px;
+    width: 270px;
   }
 
   .nav-link {
