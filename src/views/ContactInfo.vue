@@ -68,8 +68,8 @@ margin-bottom: 50px;
   }
 
   .contactTitle {
-    font-size: 30px;
-    margin-right: 30px;
+    font-size: 20px;
+    margin-right: 20px;
     text-align: right;
   }
 
@@ -78,7 +78,7 @@ margin-bottom: 50px;
   .router-links-github,
   .resume-router-link {
     margin-right: 30px;
-    font-size: 20px;
+    font-size: 14px;
     text-align: right;
   }
 }
