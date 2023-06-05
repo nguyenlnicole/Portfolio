@@ -53,6 +53,7 @@
 }
 
 .chatRHN,
+.PetShelterWebpage,
 .portfolio,
 .flashCards,
 .eightball {
