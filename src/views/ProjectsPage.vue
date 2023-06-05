@@ -7,10 +7,11 @@
 <div class="scrollBox">
     <div class="chatRHN">
       <a href="https://github.com/raulharo/ChatRHN" target="_blank">ChatRHN (In progress)</a><br>
-      Paired-programming webpage application. Application that is the sassy version of ChatGPT where users <br>
-      Interface style to look and react to similar to ChatGPT. I remmeber conversations like ChatGPT. <br>
-      can ask questions, only to receive sassy responses without any real answers. Our project<br>
-      showcases the power of Java, postgreSQL, SQL, API integration, HTML, CSS, React, and JavaScript. <br>
+      Paired-programming webpage application. This application is the sassy version of ChatGPT <br>
+      Where users can ask questions, only to receive sassy responses without any real answers. <br>
+      The interface is styled to look similar to ChatGPT. We also made it to react like ChatGPT <br>
+      by remmebering conversations. Our project showcases the power of Java, postgreSQL, SQL, <br>
+      API integration, HTML, CSS, React, and JavaScript. <br>
       
     </div>
 
