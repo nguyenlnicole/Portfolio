@@ -65,9 +65,7 @@
 }
 
 .aboutMeTitle {
-  font-size: 20px;
   margin-top: 10px;
-  font-size: 12px;
   margin-right: 500px;
 }
 
