@@ -89,6 +89,6 @@
   margin-right: 500px;
 }
 .aboutMeTitle {
-font-size: .8vw;
+font-size: .6vw;
 }
 </style>
