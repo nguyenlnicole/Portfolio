@@ -45,7 +45,7 @@
       This Java application is a powerful tool for practicing boolean expressions, pseudo code, and random <br>
       number generation. With its user-friendly interface and direct communication capabilities, users <br>
       can refine their coding skills and receive real-time feedback. It offers a comprehensive library <br>
-      of resources for learning and experimenting with these concepts<br>
+      of resources for learning and experimenting with these concepts.<br>
     </div>
     </div>
   </div>
