@@ -21,7 +21,7 @@
       <br>
         Recently, I successfully completed a 14-week full stack software development bootcamp,<br> 
         equipping me with a comprehensive skill set. I am currently undergoing technical <br>
-         <br> 
+        mentorship with Hanawilo, to accelerate and better my software development skill sets <br> 
         in full stack technologies.I'm eager to channel my love for coding and leverage my <br> 
         abilities within avtechnology team. I aspire to contribute to the creation of customized <br> 
         products and foster continuous growth.<br>
