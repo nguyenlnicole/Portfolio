@@ -54,14 +54,14 @@
 
 <style>
 .projectTitle {
-  margin-right: 300px;
+  margin-right: 200px;
   font-size: 45px;
   font-weight: bold;
   margin-top:100px;
 }
 
 .scrollableSection {
-  margin-right: 300px;
+  margin-right: 200px;
   font-weight: bold;
   overflow-y: auto;
   max-height: 560px;
@@ -92,5 +92,38 @@
   margin-bottom: -20px;
   color: rgb(139, 3, 133);
   text-decoration: underline;
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    justify-content: flex-end;
+    text-align: right;
+    padding-right: 30px; /* Add padding to the right */
+  }
+
+  .projectTitle {
+    margin-right: 60px;
+    text-align: right;
+  }
+
+  .scrollableSection {
+    margin-right: 30px;
+    font-size: 12px; 
+  }
+
+  .scrollBox {
+    margin-right: 20px;
+    width: 200px;
+  }
+
+  .nav-link {
+    margin-right: 0; /* Remove the right margin */
+    text-align: right;
+  }
+
+  .PetShelterWebpage h3 {
+    text-align: right;
+  }
 }
 </style>
