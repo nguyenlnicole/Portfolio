@@ -103,7 +103,7 @@
   }
 
   .projectTitle {
-    margin-right: 60px;
+    margin-right: 70px;
     text-align: right;
   }
 
