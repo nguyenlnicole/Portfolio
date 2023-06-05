@@ -26,4 +26,20 @@ export default {
   font-size: 30px;
   margin-right: 500px
 }
+
+@media (max-width: 768px) {
+  .homeName {
+    margin-top: 0;
+    margin-right: 0;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .homeTitle {
+    margin-top: 10px;
+    margin-right: 0;
+    text-align: center;
+    font-size: 20px;
+  }
+}
 </style>

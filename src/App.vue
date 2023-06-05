@@ -92,4 +92,29 @@
     font-size: 16px; /* Reduce font size for smaller screens */
   }
 }
+
+@media (max-width: 768px) {
+  #app {
+    margin-top: 60px;
+    align-items: center;
+  }
+
+  .flower-logo {
+    position: static;
+    margin-bottom: 20px;
+    width: 80px;
+  }
+
+  .nav-container {
+    position: static;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .nav-link {
+    margin-bottom: 5px;
+    font-size: 20px;
+  }
+}
+
 </style>

@@ -91,4 +91,25 @@
 .aboutMeTitle {
 font-size: .6vw;
 }
+
+@media (max-width: 768px) {
+  .aboutMeName {
+    margin-right: 0;
+    font-size: 30px;
+  }
+
+  .aboutMeTitle {
+    margin-right: 0;
+    font-size: 7px;
+  }
+
+  .headshotImage {
+    margin-right: 0;
+  }
+
+  .techSkills {
+    margin-right: 0;
+    font-size: 9px;
+  }
+}
 </style>
