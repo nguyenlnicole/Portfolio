@@ -2,7 +2,7 @@
   <div>
     <h1 class="projectTitle">Projects</h1>
 
-    <div class="ChatRHN">
+    <div class="chatRHN">
       <a href="https://github.com/raulharo/ChatRHN" target="_blank">ChatRHN (still in progress)</a><br>
       Paired-programming application. Application that is the sassy version of ChatGpt where users <br>
       can ask questions, only to receive sassy responses without any real answers. Our project<br>
@@ -10,13 +10,23 @@
       Get ready to be entertained by this compact sass extravaganza!<br>
     </div>
 
+    <div class="PetShelterWebpage">
+      <a href="https://github.com/raulharo/ChatRHN" target="_blank">Pet Shelter WebPage</a><br>
+      Our collaborative web development project resulted in a comprehensive webpage that connects <br>
+      potential pet adopters with available pets, facilitates volunteer sign-ups, displays detailed <br>
+      pet listings and shelter information. Additionally, the website includes robust admin features,<br>
+       allowing administrators to effortlessly add new pets, approve volunteers, update pet statuses,<br> 
+       all made possible through the implementation of Java, HTML, CSS, JavaScript, JDBC, SQL, <br>
+       PostgreSQL, Vue.js, and API integration.<br>
+
+    </div>
+
     <div class="portfolio">
       <a href="https://github.com/nguyenlnicole/PortfolioWebPage" target="_blank">Portfolio</a><br>
-      Self-built portfolio, what you're currently on! This showcase, created from scratch, displays<br>
-      information about me, my projects, and how to contact me. Powered by Javascript, Vue.js,<br>
-      HTML, and CSS, it embodies my unique blend of creativity and technical skills. Experience <br>
-      the captivating design and seamless functionality <br>
-      of my portfolio.<br>
+      Self-built portfolio. This showcase, created from scratch, displays information about me, <br>
+      my projects, and how to contact me. Powered by Javascript, Vue.js, HTML, and CSS, it <br>
+      embodies my unique blend of creativity and technical skills. Experience the captivating <br>
+      design and seamless functionality of my portfolio.<br>
     </div>
 
     <div class="flashCards">
@@ -42,7 +52,7 @@
   margin-top:100px;
 }
 
-.ChatRHN,
+.chatRHN,
 .portfolio,
 .flashCards,
 .eightball {
