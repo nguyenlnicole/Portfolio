@@ -42,8 +42,10 @@
 
     <div class="eightball">
       <a href="https://github.com/nguyenlnicole/magic8Ball/tree/main/magic8ball" target="_blank">8 Ball</a><br>
-      Java application that allows you to practice boolean expressions, pseudo code, and random number <br>
-      generation, with the ability to print information directly to the user.<br>
+      This Java application is a powerful tool for practicing boolean expressions, pseudo code, and random <br>
+      number generation. With its user-friendly interface and direct communication capabilities, users <br>
+      can refine their coding skills and receive real-time feedback. It offers a comprehensive library <br>
+      of resources for learning and experimenting with these concepts<br>
     </div>
     </div>
   </div>
