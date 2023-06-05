@@ -6,7 +6,7 @@
 
 <div class="scrollBox">
     <div class="chatRHN">
-      <a href="https://github.com/raulharo/ChatRHN" target="_blank">ChatRHN (still in progress)</a><br>
+      <a href="https://github.com/raulharo/ChatRHN" target="_blank">ChatRHN (In progress)</a><br>
       Paired-programming application. Application that is the sassy version of ChatGpt where users <br>
       can ask questions, only to receive sassy responses without any real answers. Our project<br>
       showcases the power of Java, postgreSQL, SQL, APIs, HTML, CSS, and JavaScript. <br>
@@ -14,7 +14,7 @@
     </div>
 
     <div class="PetShelterWebpage">
-     <h3>Pet Shelter WebPage (in prgorss, will be completed and available 6/8/2023)</h3><br>
+     <h3>Pet Shelter WebPage (In prgorss, will be completed and available 6/8/2023)</h3><br>
       Our collaborative web development project resulted in a comprehensive webpage that connects <br>
       potential pet adopters with available pets, facilitates volunteer sign-ups, displays detailed <br>
       pet listings and shelter information. Additionally, the website includes robust admin features,<br>
