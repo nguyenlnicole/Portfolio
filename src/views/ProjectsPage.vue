@@ -9,8 +9,8 @@
       <a href="https://github.com/raulharo/ChatRHN" target="_blank">ChatRHN (In progress)</a><br>
       Paired-programming application. Application that is the sassy version of ChatGpt where users <br>
       can ask questions, only to receive sassy responses without any real answers. Our project<br>
-      showcases the power of Java, postgreSQL, SQL, APIs, HTML, CSS, and JavaScript. <br>
-      Get ready to be entertained by this compact sass extravaganza!<br>
+      showcases the power of Java, postgreSQL, SQL, API integration, HTML, CSS, React, and JavaScript. <br>
+      
     </div>
 
     <div class="PetShelterWebpage">
@@ -34,8 +34,8 @@
     <div class="flashCards">
       <a href="https://github.com/nguyenlnicole/FlashCards" target="_blank">Flash Cards</a><br>
       Java-based quiz application designed to help students study Java vocabulary and code snippets. <br>
-      Using scanners, conditionals, and random message printing, this application offers an interactive <br>
-      learning experience. <br>
+      Ths application utilizes scanners, conditionals, and random message printing, this application <br>
+      offers an interactive learning experience. <br>
     </div>
 
     <div class="eightball">
