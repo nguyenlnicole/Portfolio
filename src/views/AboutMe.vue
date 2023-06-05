@@ -101,6 +101,7 @@ font-size: .6vw;
   .aboutMeTitle {
     margin-right: 0;
     font-size: 7px;
+    text-align: center;
   }
 
   .headshotImage {
