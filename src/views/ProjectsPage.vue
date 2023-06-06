@@ -16,7 +16,7 @@
     </div>
 
     <div class="PetShelterWebpage">
-     <h3>Pet Shelter WebPage (In prgorss, will be completed and available 6/8/2023)</h3><br>
+     <h3>Pet Shelter WebPage (In progress, will be completed and available 6/8/2023)</h3><br>
       Our collaborative web development project resulted in a comprehensive webpage that connects <br>
       potential pet adopters with available pets, facilitates volunteer sign-ups, displays detailed <br>
       pet listings and shelter information. Additionally, the website includes robust admin features,<br>
