@@ -28,9 +28,11 @@
 
     <div class="portfolio">
       <a href="https://github.com/nguyenlnicole/PortfolioWebPage" target="_blank">Portfolio</a><br>
-      Self-built portfolio. This showcase, created from scratch, displays information about me, <br>
-      my projects, and how to contact me. Powered by Javascript, Vue.js, HTML, and CSS, it <br>
-      embodies my unique blend of creativity and technical skills. <br>
+      Developed a self-built portfolio that serves as a showcase for presenting information about myself, <br>
+      my projects, and how to get in touch with me. This portfolio is created from scratch, utilizing the <br>
+      power of Javascript, Vue.js, HTML, and CSS, to bring together my creative and technical skills. <br>
+      It embodies my unique blend of creativity and technical expertise, providing visitors with an immersive<br>
+      experience while offering a glimpse into my work and capabilities.<br>
     </div>
 
     <div class="vendingMachine">
