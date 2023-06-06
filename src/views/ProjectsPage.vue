@@ -16,7 +16,7 @@
     </div>
 
     <div class="PetShelterWebpage">
-     <h3>Pet Shelter WebPage (In progress, will be completed and available 6/8/2023)</h3><br>
+     <h3>Pet Shelter WebPage (In progress, will be completed and available 6/8/2023)</h3> <br>
       Our collaborative web development project resulted in a comprehensive webpage that connects <br>
       potential pet adopters with available pets, facilitates volunteer sign-ups, displays detailed <br>
       pet listings and shelter information. Additionally, the website includes robust admin features,<br>
@@ -33,8 +33,8 @@
       embodies my unique blend of creativity and technical skills. <br>
     </div>
 
-    <div class="ventingMachine">
-      <h3> Vending Machine</h3><br>
+    <div class="vendingMachine">
+      <h3> Vending Machine (Completed but have not been added to GitHub)</h3><br>
       Java application facilitates paired programming, enabling users to select one or more <br>
       products for cost aggregation. By prompting the user to input their available funds as <br>
       a numerical value, the application determines the change to be returned. It incorporates <br>
@@ -88,6 +88,7 @@
 }
 
 
+.vendingMachine, 
 .chatRHN,
 .PetShelterWebpage,
 .portfolio,
@@ -97,6 +98,7 @@
   font-weight: bold;
 }
 
+.vendingMachine h3,
 .PetShelterWebpage h3 {
   margin-top:10px;
   margin-bottom: -20px;
