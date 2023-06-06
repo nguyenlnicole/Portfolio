@@ -33,6 +33,16 @@
       embodies my unique blend of creativity and technical skills. <br>
     </div>
 
+    <div class="ventingMachine">
+      <h3> Vending Machine</h3><br>
+      Java application facilitates paired programming, enabling users to select one or more <br>
+      products for cost aggregation. By prompting the user to input their available funds as <br>
+      a numerical value, the application determines the change to be returned. It incorporates <br>
+      functions and classes to exercise boolean logic, variable manipulation, value handling, <br>
+      and object-oriented programming principles. Additionally, the application incorporates <br>
+      File I/O operations, enhancing the overall learning experience. <br>
+    </div>
+
     <div class="flashCards">
       <a href="https://github.com/nguyenlnicole/FlashCards" target="_blank">Flash Cards</a><br>
       Java-based quiz application designed to help students study Java vocabulary and code snippets. <br>
