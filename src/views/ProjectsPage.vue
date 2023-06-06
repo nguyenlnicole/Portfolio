@@ -74,7 +74,7 @@
   margin-right: 200px;
   font-weight: bold;
   overflow-y: auto;
-  max-height: 560px;
+  max-height: 500px;
   margin-left: 10px;
   margin-bottom: 60px;
   
