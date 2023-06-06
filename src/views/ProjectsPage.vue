@@ -98,6 +98,7 @@
   font-weight: bold;
 }
 
+/* remove later */
 .vendingMachine h3,
 .PetShelterWebpage h3 {
   margin-top:10px;
