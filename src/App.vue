@@ -23,7 +23,7 @@
   margin-top: 60px;
   display: flex;
   justify-content: center;
-  align-items: flex-start; /* Align items to the top of the container */
+  align-items: flex-start; 
   min-height: 100vh;
 }
 
@@ -73,11 +73,11 @@
   font-family: "Font4", sans-serif;
 }
 
-/* Media queries for responsive design */
+
 
 @media (max-width: 768px) {
   #app {
-    align-items: center; /* Center align items vertically */
+    align-items: center; 
   }
 
   .nav-container {

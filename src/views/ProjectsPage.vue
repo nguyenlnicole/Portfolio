@@ -29,7 +29,7 @@
     <div class="portfolio">
       <a href="https://github.com/nguyenlnicole/PortfolioWebPage" target="_blank">Portfolio</a><br>
       Developed a self-built portfolio that serves as a showcase for presenting information about myself, <br>
-      my projects, and how to get in touch with me. This portfolio is created from scratch, utilizing the <br>
+      all my projects, and how to get in touch with me. This portfolio is created from scratch, utilizing the <br>
       power of Javascript, Vue.js, HTML, and CSS, to bring together my creative and technical skills. <br>
       It embodies my unique blend of creativity and technical expertise, providing visitors with an immersive<br>
       experience while offering a glimpse into my work and capabilities.<br>
@@ -47,9 +47,10 @@
 
     <div class="flashCards">
       <a href="https://github.com/nguyenlnicole/FlashCards" target="_blank">Flash Cards</a><br>
-      Java-based quiz application designed to help students study Java vocabulary and code snippets. <br>
-      Ths application utilizes scanners, conditionals, and random message printing, this application <br>
-      offers an interactive learning experience. <br>
+      Java-based quiz application is designed to help students study Java vocabulary and code snippets. <br>
+      It incorporates scanners, conditionals, and random message printing to create an interactive learning <br>
+      experience. Students can engage with the application to test their knowledge, reinforce concepts, and <br>
+      enhance their understanding of Java programming in an enjoyable manner.<br>
     </div>
 
     <div class="eightball">
