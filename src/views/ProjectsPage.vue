@@ -141,5 +141,9 @@
   .PetShelterWebpage h3 {
     text-align: right;
   }
+  .flashCards {
+    
+  }
+
 }
 </style>

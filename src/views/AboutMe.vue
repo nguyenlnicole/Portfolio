@@ -51,7 +51,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-   margin-top:60px;
+  margin-top:20px;
 }
 
 .aboutMe {
