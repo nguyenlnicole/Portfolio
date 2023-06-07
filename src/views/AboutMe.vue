@@ -8,6 +8,17 @@
       <img :src="require('@/views/nicolesHeadshot.png')" alt="Nicole's Headshot" class="headshotImage" />
     </div>
 
+<div class="techSkills">
+      <h3><u>TECHNICAL SKILLS:</u></h3>
+      <p>
+        Web Application Development: Java, HTML, CSS, JavaScript, Spring Boot, Vue.js
+        <br />
+        Database Programming: JDBC, Table Design, SQL, PostgreSQL, E/R diagrams
+        <br />
+        Development tools and techniques: Agile, Unit Testing (JUnit), Integration Testing, Git, IntelliJ
+      </p>
+    </div>
+
     <div class="aboutMeTitle">
       <h2>
         Hello, I'm Nicole Nguyen. My passion for coding blossomed during my early encounters <br>
@@ -32,16 +43,7 @@
       </h2>
     </div>
 
-    <div class="techSkills">
-      <h3><u>TECHNICAL SKILLS:</u></h3>
-      <p>
-        Web Application Development: Java, HTML, CSS, JavaScript, Spring Boot, Vue.js
-        <br />
-        Database Programming: JDBC, Table Design, SQL, PostgreSQL, E/R diagrams
-        <br />
-        Development tools and techniques: Agile, Unit Testing (JUnit), Integration Testing, Git, IntelliJ
-      </p>
-    </div>
+
   </div>
 </template>
 
@@ -55,7 +57,7 @@
 }
 
 .aboutMe {
-  margin-top: 10px;
+  margin-top: -20px;
 }
 
 .aboutMeName {
@@ -65,12 +67,12 @@
 }
 
 .aboutMeTitle {
-  margin-top: 10px;
+  margin-top: -5px;
   margin-right: 500px;
 }
 
 .imageContainer {
-  margin-top: 20px;
+  margin-top: -5px;
 }
 
 .headshotImage {
@@ -84,12 +86,12 @@
 }
 
 .techSkills {
-  margin-top: 10px;
-  font-size: 19px;
+  margin-top: 0px;
+  font-size: 15px;
   margin-right: 500px;
 }
 .aboutMeTitle {
-font-size: .6vw;
+font-size: .5vw;
 }
 
 @media (max-width: 768px) {
