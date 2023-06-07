@@ -36,7 +36,7 @@
     </div>
 
     <div class="vendingMachine">
-       <a href="https://git.techelevator.com/campuses/nlr/mar-2023/java-yellow/student-pairs/java-yellow-minicapstonemodule1-team1.git" target="_blank"> Vending Machine</a><br>
+       <a href="https://github.com/nguyenlnicole/VedningMachine/tree/main/vending-machine" target="_blank"> Vending Machine</a><br>
       Java application facilitates paired programming, enabling users to select one or more <br>
       products for cost aggregation. By prompting the user to input their available funds as <br>
       a numerical value, the application determines the change to be returned. It incorporates <br>
