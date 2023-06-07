@@ -16,7 +16,7 @@
     </div>
 
     <div class="PetShelterWebpage">
-     <h3>Pet Shelter WebPage (In progress, will be completed and available 6/8/2023.)</h3> <br>
+     <a href="https://git.techelevator.com/campuses/nlr/mar-2023/java-orange/student-pairs/animal-shelter-2-final-capstone.git" target="_blank">Pet Shelter WebPage</a> <br>
       Our collaborative web development project resulted in a comprehensive webpage that connects <br>
       potential pet adopters with available pets, facilitates volunteer sign-ups, displays detailed <br>
       pet listings and shelter information. Additionally, the website includes robust admin features,<br>
@@ -36,7 +36,7 @@
     </div>
 
     <div class="vendingMachine">
-      <h3> Vending Machine (Completed but have not been added to GitHub.)</h3><br>
+       <a href="https://git.techelevator.com/campuses/nlr/mar-2023/java-yellow/student-pairs/java-yellow-minicapstonemodule1-team1.git" target="_blank"> Vending Machine</a><br>
       Java application facilitates paired programming, enabling users to select one or more <br>
       products for cost aggregation. By prompting the user to input their available funds as <br>
       a numerical value, the application determines the change to be returned. It incorporates <br>
@@ -54,7 +54,7 @@
     </div>
 
     <div class="eightball">
-      <a href="https://github.com/nguyenlnicole/magic8Ball/tree/main/magic8ball" target="_blank">8 Ball</a><br>
+      <a href="https://github.com/nguyenlnicole/magic8Ball/tree/main/magic8ball" target="_blank">Magic 8 Ball</a><br>
       This Java application is a powerful tool for practicing boolean expressions, pseudo code, and random <br>
       number generation. With its user-friendly interface and direct communication capabilities, users <br>
       can refine their coding skills and receive real-time feedback. It offers a comprehensive library <br>
