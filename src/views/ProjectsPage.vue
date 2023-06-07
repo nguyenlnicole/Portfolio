@@ -59,7 +59,7 @@
       number generation. With its user-friendly interface and direct communication capabilities, users <br>
       can refine their coding skills and receive real-time feedback. It offers a comprehensive library <br>
       of resources for learning and experimenting with these concepts.<br>
-      <br>
+      
     </div>
     </div>
   </div>
