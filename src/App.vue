@@ -37,7 +37,7 @@
 
 .nav-container {
   position: absolute;
-  top: 300px;
+  top: 250px;
   right: 30px;
   max-width: 300px;
   text-align: right;
@@ -45,7 +45,6 @@
 
 .nav-link {
   margin-bottom: 10px;
-  font-size: 20px;
   text-decoration: none;
   color: #0a0a0a;
   display: block;
