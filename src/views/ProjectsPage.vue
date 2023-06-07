@@ -101,16 +101,6 @@
   font-weight: bold;
 }
 
-/* remove later */
-.vendingMachine h3,
-.PetShelterWebpage h3 {
-  margin-top:10px;
-  margin-bottom: -20px;
-  color: rgb(139, 3, 133);
-  text-decoration: underline;
-}
-
-
 @media (max-width: 768px) {
   .container {
     justify-content: flex-end;
