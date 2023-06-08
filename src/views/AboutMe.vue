@@ -87,11 +87,11 @@
 
 .techSkills {
   margin-top: 0px;
-  font-size: 15px;
+  font-size: 17px;
   margin-right: 500px;
 }
 .aboutMeTitle {
-font-size: .5vw;
+font-size: .65vw;
 }
 
 @media (max-width: 768px) {
