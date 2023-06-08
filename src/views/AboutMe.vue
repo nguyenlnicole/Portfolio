@@ -21,11 +21,13 @@
 
     <div class="aboutMeTitle">
       <h2>
-        Hello, I'm Nicole Nguyen. My passion for coding blossomed during my early encounters <br>
-        with Xanga, where I discovered the joy of customizing backgrounds using HTML and CSS. <br>
-        This led me to further explore HTML and CSS through platforms like MySpace. Initially,<br>
-        I didn't realize that coding could be a viable career path. Instead, I embarked on a <br>
-        journey in veterinary medicine and healthcare, honing my skills in relationship building,<br> 
+        Hello, I'm Nicole Nguyen, a friendly, easy-going, and social individual. On my free <br>
+        time I enjoy playing video, speficially League of Legends, Teamfight Tactics, and <br>
+        Harvest Moon. My passion for coding blossomed during my early encounters with Xanga, <br>
+        where I discovered the joy of customizing backgrounds using HTML and CSS. This led me <br>
+        to further explore HTML and CSS through platforms like MySpace. Initially,I didn't <br>
+        realize that coding could be a viable career path. Instead, I embarked on a journey <br>
+        in veterinary medicine and healthcare, honing my skills in relationship building,<br> 
         problem-solving, and cross-team collaboration. Known for my friendly and easy-going <br>
         nature, I thrive in collaborative environments.<br>
 
