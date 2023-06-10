@@ -16,8 +16,8 @@
     </div>
 
     <div class="PetShelterWebpage">
-     <a href="https://nguyenlnicole.github.io/PetShelterPage/" target="_blank">Pet Shelter WebPage</a> <br>
-     <a href="https://github.com/nguyenlnicole/PetShelterPage" target="_blank">Pet Shelter Vue </a> <br>
+     <a href="https://nguyenlnicole.github.io/PetShelterPage/" target="_blank">Pet Shelter WebPage</a> ||
+     <a href="https://github.com/nguyenlnicole/PetShelterPage" target="_blank">Pet Shelter Vue </a> ||
      <a href="https://github.com/nguyenlnicole/PetShelterWebpage" target="_blank">Pet Shelter Java </a> <br>
       Our collaborative web development project resulted in a comprehensive webpage that connects <br>
       potential pet adopters with available pets, facilitates volunteer sign-ups, displays detailed <br>
