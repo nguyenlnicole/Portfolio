@@ -16,7 +16,9 @@
     </div>
 
     <div class="PetShelterWebpage">
-     <a href="https://git.techelevator.com/campuses/nlr/mar-2023/java-orange/student-pairs/animal-shelter-2-final-capstone.git" target="_blank">Pet Shelter WebPage</a> <br>
+     <a href="https://nguyenlnicole.github.io/PetShelterPage/" target="_blank">Pet Shelter WebPage</a> <br>
+     <a href="https://github.com/nguyenlnicole/PetShelterPage" target="_blank">Pet Shelter Vue </a> <br>
+     <a href="https://github.com/nguyenlnicole/PetShelterWebpage" target="_blank">Pet Shelter Java </a> <br>
       Our collaborative web development project resulted in a comprehensive webpage that connects <br>
       potential pet adopters with available pets, facilitates volunteer sign-ups, displays detailed <br>
       pet listings and shelter information. Additionally, the website includes robust admin features,<br>
