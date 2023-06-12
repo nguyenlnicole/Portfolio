@@ -69,8 +69,9 @@ margin-bottom: 50px;
 
   .contactTitle {
     font-size: 20px;
-    margin-right: 20px;
+    margin-right: 45px;
     text-align: right;
+    margin-top: -190px;
   }
 
   .emailInfo,
@@ -79,7 +80,7 @@ margin-bottom: 50px;
   .resume-router-link {
     margin-right: 30px;
     font-size: 14px;
-    text-align: right;
+    text-align: center;
   }
 }
 </style>

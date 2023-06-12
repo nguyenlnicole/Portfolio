@@ -113,6 +113,7 @@ font-size: .65vw;
   .techSkills {
     margin-right: 0;
     font-size: 9px;
+    text-align: center;
   }
 }
 </style>

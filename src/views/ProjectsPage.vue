@@ -101,8 +101,70 @@
 .flashCards,
 .eightball {
   margin-right: 10px;
-  font-weight: bold;
+  margin-bottom: 20px;
+  
 }
+
+.PetShelterWebpage a:link,
+.PetShelterWebpage a:visited {
+  color: #5e391bef;
+}
+
+.PetShelterWebpage a:hover,
+.PetShelterWebpage a:active {
+  color: #A67B5B;
+}
+.portfolio a:link,
+.portfolio a:visited {
+  color: #5e391bef;
+}
+
+.portfolio a:hover,
+.portfolio a:active {
+  color: #A67B5B;
+}
+
+.eightball a:link,
+.eightball a:visited {
+  color: #5e391bef;
+}
+
+.eightball a:hover,
+.eightball a:active {
+  color: #A67B5B;
+}
+.flashCards a:link,
+.flashCard sa:visited {
+  color: #5e391bef;
+}
+
+.flashCards a:hover,
+.flashCards a:active {
+  color: #A67B5B;
+}
+
+.vendingMachine a:link,
+.vendingMachine a:visited {
+  color: #5e391bef;
+}
+
+.vendingMachine a:hover,
+.vendingMachine a:active {
+  color: #A67B5B;
+}
+
+.vchatRHN a:link,
+.chatRHN a:visited {
+  color: #5e391bef;
+}
+
+.chatRHN a:hover,
+.chatRHN a:active {
+  color: #A67B5B;
+}
+
+
+
 
 @media (max-width: 768px) {
   .container {
@@ -112,12 +174,13 @@
   }
 
   .projectTitle {
-    margin-right: 80px;
+    margin-right: 140px;
     text-align: right;
+    margin-top: -10px; 
   }
 
   .scrollableSection {
-    margin-right: -10px;
+    margin-right: 80px;
     font-size: 12px; 
   }
 

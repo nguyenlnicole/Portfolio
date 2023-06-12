@@ -46,7 +46,7 @@
 .nav-link {
   margin-bottom: 10px;
   text-decoration: none;
-  color: #0a0a0a;
+  color: #ac774f;
   display: block;
   transition: transform 0.3s ease;
   font-size: 50px;
@@ -82,9 +82,9 @@
   .nav-container {
     position: absolute;
     top: 250px;
-    right: 0;
+    right: -10;
     margin-top: -60px;
-    text-align: left; /* Updated to align links to the left */
+    text-align: left; 
   }
 
   .nav-link {
