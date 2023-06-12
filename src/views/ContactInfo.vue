@@ -59,6 +59,39 @@ margin-bottom: 50px;
  font-size: 25px;
  margin-bottom: 50px; 
 } 
+.router-links-linkedin a:link,
+.router-links-linkedin a:visited {
+  color: #5e391bef;
+}
+
+.router-links-linkedin a:hover,
+.router-links-linkedin a:active {
+  color: #A67B5B;
+}
+
+.router-links-github a:link,
+.router-links-github a:visited {
+  color: #5e391bef;
+}
+
+.router-links-github a:hover,
+.router-links-github a:active {
+  color: #A67B5B;
+}
+
+.resume-router-link a:link,
+.resume-router-link a:visited {
+  color: #5e391bef;
+}
+
+.resume-router-link a:hover,
+.resume-router-link a:active {
+  color: #A67B5B;
+}
+.emailInfo {
+  color: #5e391bef;
+}
+
 
 @media (max-width: 768px) {
   .container {
@@ -82,5 +115,6 @@ margin-bottom: 50px;
     font-size: 14px;
     text-align: center;
   }
+
 }
 </style>
