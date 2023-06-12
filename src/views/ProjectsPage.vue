@@ -153,7 +153,7 @@
   color: #A67B5B;
 }
 
-.vchatRHN a:link,
+.chatRHN a:link,
 .chatRHN a:visited {
   color: #5e391bef;
 }
