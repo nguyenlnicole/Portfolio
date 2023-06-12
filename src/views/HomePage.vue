@@ -15,7 +15,7 @@ export default {
 .homeName {
   font-family:  Alegreya Sans Regular, sans-serif; 
   font-size: 45px;
-  margin-top: 400px; 
+  margin-top: 250px; 
   margin-right: 500px;
   
 }
@@ -29,17 +29,17 @@ export default {
 
 @media (max-width: 768px) {
   .homeName {
-    margin-top: 0;
-    margin-right: 0;
+    margin-top: -200px;
+    margin-right: 90px;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .homeTitle {
-    margin-top: 10px;
-    margin-right: 0;
+    margin-top: 30px;
+    margin-right: 90px;
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
   }
 }
 </style>

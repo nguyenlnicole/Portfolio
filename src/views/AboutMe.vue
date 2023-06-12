@@ -62,7 +62,7 @@
 
 .aboutMeName {
   font-family: DM Serif Text, sans-serif;
-  font-size: 45px;
+  font-size: 35px;
   margin-right: 500px;
 }
 

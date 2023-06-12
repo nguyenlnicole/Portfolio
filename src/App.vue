@@ -40,7 +40,7 @@
   top: 250px;
   right: 30px;
   max-width: 300px;
-  text-align: right;
+  text-align: left;
 }
 
 .nav-link {
@@ -49,7 +49,7 @@
   color: #0a0a0a;
   display: block;
   transition: transform 0.3s ease;
-  font-size: 80px;
+  font-size: 50px;
 }
 
 .nav-link:hover {
@@ -80,19 +80,20 @@
   }
 
   .nav-container {
-    position: relative;
-    top: 0;
+    position: absolute;
+    top: 250px;
     right: 0;
-    margin-top: 20px;
+    margin-top: -60px;
+    text-align: left; /* Updated to align links to the left */
   }
 
   .nav-link {
     margin-left: 0; 
-    font-size: 16px; 
+    font-size: 16px;
   }
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   #app {
     margin-top: 60px;
     align-items: center;
@@ -114,6 +115,6 @@
     margin-bottom: 5px;
     font-size: 20px;
   }
-}
+} */
 
 </style>
