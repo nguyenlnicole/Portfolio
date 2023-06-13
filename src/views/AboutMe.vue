@@ -87,7 +87,7 @@
 
 .techSkills {
   margin-top: 0px;
-  font-size: 17px;
+  font-size: 14px;
   margin-right: 500px;
 }
 .aboutMeTitle {
