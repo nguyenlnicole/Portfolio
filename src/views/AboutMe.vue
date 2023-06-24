@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="aboutMe">
-      <h1 class="aboutMeName">About Me.</h1>
+      <h1 class="aboutMeName">About Me</h1>
     </div>
 
     <div class="imageContainer">
