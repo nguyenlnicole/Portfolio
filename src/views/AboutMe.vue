@@ -108,6 +108,9 @@ font-size: .65vw;
 
   .headshotImage {
     margin-right: 0;
+    width: 140px; 
+    height: 190px; 
+    border-width: 3px;
   }
 
   .techSkills {
