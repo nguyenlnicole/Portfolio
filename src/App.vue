@@ -92,7 +92,9 @@ body {
     margin-left: 0; 
     font-size: 16px;
   }
-
+.flower-logo {
+  width: 100px;
+}
 
 }
 </style>
