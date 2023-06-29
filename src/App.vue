@@ -82,7 +82,7 @@ body {
 
   .nav-container {
     position: absolute;
-    top: 200px;
+    top: 250px;
     right: -10;
     margin-top: -60px;
     text-align: left; 
@@ -93,7 +93,7 @@ body {
     font-size: 16px;
   }
 .flower-logo {
-  width: 130px;
+  width: 120px;
 }
 
 }
