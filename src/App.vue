@@ -34,7 +34,7 @@ body {
   position: absolute;
   top: 10px;
   left: 10px;
-  width: 150px;
+  width: 160px;
   height: auto;
 }
 
@@ -93,7 +93,7 @@ body {
     font-size: 16px;
   }
 .flower-logo {
-  width: 130px;
+  width: 120px;
 }
 
 }
