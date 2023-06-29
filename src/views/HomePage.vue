@@ -29,7 +29,7 @@ export default {
 
 @media (max-width: 768px) {
   .homeName {
-    margin-top: -200px;
+    margin-top: -250px;
     margin-right: 90px;
     text-align: center;
     font-size: 20px;
