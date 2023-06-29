@@ -39,7 +39,7 @@
         <br>
 
         If you're seeking a passionate and skilled addition to your team, I'm excited to explore <br>
-        opportunities with you."<br>
+        opportunities with you!<br>
       </h2>
     </div>
 
