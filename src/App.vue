@@ -34,7 +34,7 @@ body {
   position: absolute;
   top: 10px;
   left: 10px;
-  width: 100px;
+  width: 130px;
   height: auto;
 }
 
@@ -92,6 +92,7 @@ body {
     margin-left: 0; 
     font-size: 16px;
   }
+  
 }
 </style>
 
