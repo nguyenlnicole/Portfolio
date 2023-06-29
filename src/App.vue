@@ -82,7 +82,7 @@ body {
 
   .nav-container {
     position: absolute;
-    top: 250px;
+    top: 200px;
     right: -10;
     margin-top: -60px;
     text-align: left; 
@@ -94,7 +94,7 @@ body {
   }
 }
 </style>
-By adding the background-color property to the body selector, the entire background of your page will have the color #eee1c5.
+
 
 
 
