@@ -93,7 +93,7 @@ body {
     font-size: 16px;
   }
 .flower-logo {
-  width: 100px;
+  width: 130px;
 }
 
 }
