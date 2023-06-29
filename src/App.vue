@@ -13,8 +13,11 @@
 </template>
 
 <style>
-#app {
+body {
   background-color: #eee1c5;
+}
+
+#app {
   font-family: DM Serif Text, Alegreya Sans Regular, Alegreya Sans Medium, Alegreya Sans Light, Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -72,8 +75,6 @@
   font-family: "Font4", sans-serif;
 }
 
-
-
 @media (max-width: 768px) {
   #app {
     align-items: center; 
@@ -92,29 +93,11 @@
     font-size: 16px;
   }
 }
-
-/* @media (max-width: 768px) {
-  #app {
-    margin-top: 60px;
-    align-items: center;
-  }
-
-  .flower-logo {
-    position: static;
-    margin-bottom: 20px;
-    width: 80px;
-  }
-
-  .nav-container {
-    position: static;
-    margin-top: 20px;
-    text-align: center;
-  }
-
-  .nav-link {
-    margin-bottom: 5px;
-    font-size: 20px;
-  }
-} */
-
 </style>
+By adding the background-color property to the body selector, the entire background of your page will have the color #eee1c5.
+
+
+
+
+
+
