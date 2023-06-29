@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img :src="require('./prideFlowerLogo.png')" alt="Flower Logo" class="flower-logo">
+    <img :src="require('./flowerLogoNew.png')" alt="Flower Logo" class="flower-logo">
     <nav class="nav-container">
       <router-link :to="{ name: 'homePage' }" class="nav-link">Home</router-link><br>
       <router-link :to="{ name: 'aboutMe' }" class="nav-link">About</router-link><br>
