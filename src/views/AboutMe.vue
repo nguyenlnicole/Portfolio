@@ -8,16 +8,7 @@
       <img :src="require('@/views/nicolesHeadshot.png')" alt="Nicole's Headshot" class="headshotImage" />
     </div>
 
-<div class="techSkills">
-      <h3>TECHNICAL SKILLS</h3>
-      <p>
-        Web Application Development: Java, HTML, CSS, JavaScript, Spring Boot, Vue.js
-        <br />
-        Database Programming: JDBC, Table Design, SQL, PostgreSQL, E/R diagrams
-        <br />
-        Development tools and techniques: Agile, Unit Testing (JUnit), Integration Testing, Git, IntelliJ
-      </p>
-    </div>
+
 
     <div class="aboutMeTitle">
       <p>
@@ -40,6 +31,17 @@
 
         If you're seeking a passionate and skilled addition to your team, I'm excited to explore <br>
         opportunities with you!<br>
+      </p>
+    </div>
+
+    <div class="techSkills">
+      <h3>TECHNICAL SKILLS</h3>
+      <p>
+        Web Application Development: Java, HTML, CSS, JavaScript, Spring Boot, Vue.js
+        <br />
+        Database Programming: JDBC, Table Design, SQL, PostgreSQL, E/R diagrams
+        <br />
+        Development tools and techniques: Agile, Unit Testing (JUnit), Integration Testing, Git, IntelliJ
       </p>
     </div>
 
