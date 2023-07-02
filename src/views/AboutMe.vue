@@ -107,7 +107,7 @@ text-align: left;
   .aboutMeTitle {
     margin-right: 0;
     font-size: 7px;
-    text-align: center;
+    text-align: left;
   }
 
   .headshotImage {
