@@ -106,7 +106,7 @@ text-align: left;
 
   .aboutMeTitle {
     margin-right: 0;
-    font-size: 7px;
+    font-size: 12px;
     text-align: left;
   }
 
@@ -120,7 +120,7 @@ text-align: left;
   .techSkills {
     margin-right: 0;
     font-size: 9px;
-    text-align: center;
+    text-align: left;
   }
 }
 </style>
