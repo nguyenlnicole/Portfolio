@@ -20,7 +20,7 @@
     </div>
 
     <div class="aboutMeTitle">
-      <h2>
+      <p>
         Hello, I'm Nicole Nguyen. My passion for coding blossomed during my early encounters <br>
         with Xanga, where I discovered the joy of customizing backgrounds using HTML and CSS. <br>
         This led me to further explore HTML and CSS through platforms like MySpace. Initially,<br>
@@ -40,7 +40,7 @@
 
         If you're seeking a passionate and skilled addition to your team, I'm excited to explore <br>
         opportunities with you!<br>
-      </h2>
+      </p>
     </div>
 
 
@@ -91,7 +91,7 @@
   margin-right: 500px;
 }
 .aboutMeTitle {
-font-size: .65vw;
+font-size: .85vw;
 }
 
 @media (max-width: 768px) {
