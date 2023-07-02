@@ -59,7 +59,7 @@
 }
 
 .aboutMe {
-  margin-top: -200px;
+  margin-top: -250px;
 }
 
 .aboutMeName {
