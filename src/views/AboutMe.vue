@@ -91,6 +91,7 @@
   margin-top: 0px;
   font-size: 16px;
   margin-right: 500px;
+  text-align: left;
 }
 .aboutMeTitle {
 font-size: .85vw;
