@@ -59,7 +59,7 @@
 }
 
 .aboutMe {
-  margin-top: -60px;
+  margin-top: -200px;
 }
 
 .aboutMeName {
@@ -106,7 +106,7 @@ text-align: left;
 
   .aboutMeTitle {
     margin-right: 0;
-    font-size: 12px;
+    font-size: 2vw;
     text-align: left;
   }
 
@@ -119,7 +119,7 @@ text-align: left;
 
   .techSkills {
     margin-right: 0;
-    font-size: 10px;
+    font-size: 1.5vw;
     text-align: left;
   }
 }
