@@ -94,6 +94,7 @@
 }
 .aboutMeTitle {
 font-size: .85vw;
+text-align: left;
 }
 
 @media (max-width: 768px) {
