@@ -9,7 +9,7 @@
     </div>
 
 <div class="techSkills">
-      <h3>TECHNICAL SKILLS:</h3>
+      <h3>TECHNICAL SKILLS</h3>
       <p>
         Web Application Development: Java, HTML, CSS, JavaScript, Spring Boot, Vue.js
         <br />
