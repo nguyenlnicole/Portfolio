@@ -186,7 +186,7 @@
 
   .scrollBox {
     margin-right: 20px;
-    width: 200px;
+    width: 280px;
   }
 
   .nav-link {
