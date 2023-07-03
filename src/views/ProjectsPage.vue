@@ -74,11 +74,11 @@
   font-size: 45px;
   font-weight: bold;
   margin-top:100px;
+  
 }
 
 .scrollableSection {
   margin-right: 200px;
-  /* font-weight: bold; */
   overflow-y: auto;
   max-height: 500px;
   margin-left: 10px;
@@ -102,6 +102,7 @@
 .eightball {
   margin-right: 10px;
   margin-bottom: 20px;
+  text-align: left;
   
 }
 
