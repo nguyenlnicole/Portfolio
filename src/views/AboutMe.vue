@@ -89,7 +89,7 @@
 
 .techSkills {
   margin-top: 0px;
-  font-size: 16px;
+  font-size: .95vw;
   margin-right: 500px;
   text-align: left;
 }
