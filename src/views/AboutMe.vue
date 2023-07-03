@@ -94,7 +94,7 @@
   text-align: left;
 }
 .aboutMeTitle {
-font-size: .85vw;
+font-size: .95vw;
 text-align: left;
 }
 
