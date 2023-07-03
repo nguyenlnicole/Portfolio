@@ -119,7 +119,7 @@ text-align: left;
 
   .techSkills {
     margin-right: 0;
-    font-size: 1.5vw;
+    font-size: 2vw;
     text-align: left;
   }
 }
