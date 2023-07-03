@@ -10,7 +10,7 @@
       Paired-programming webpage application. This application is the sassy version of ChatGPT <br>
       Where users can ask questions, only to receive sassy responses with or without a real answers. <br>
       The interface is styled to look similar to ChatGPT. We also made it to react like ChatGPT <br>
-      by remmebering conversations. Our project showcases the power of Java, postgreSQL, SQL, <br>
+      by remembering conversations. Our project showcases the power of Java, postgreSQL, SQL, <br>
       API integration, HTML, CSS, and JavaScript. <br>
       
     </div>
