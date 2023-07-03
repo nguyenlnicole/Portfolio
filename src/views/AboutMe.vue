@@ -12,40 +12,34 @@
 
     <div class="aboutMeTitle">
       <p>
-        Hello, I'm Nicole Nguyen. My passion for coding blossomed <br>
-        during my early encounters with Xanga, where I discovered <br>
-        the joy of customizing backgrounds using HTML and CSS.<br> 
-        This led me to further explore HTML and CSS through platforms <br>
-        like MySpace. Initially, I didn't realize that coding could be <br>
-        a viable career path. Instead,I embarked on a journey in <br>
-        veterinary medicine and healthcare, honing my skills in <br>
-        relationship building,problem-solving, and cross-team <br>
-        collaboration. Known for my friendly and easy-going nature,  <br>
-        I thrive in collaborative environments.<br>
+        Hello, I'm Nicole Nguyen. My passion for coding blossomed during my early encounters <br>
+        with Xanga, where I discovered the joy of customizing backgrounds using HTML and CSS. <br>
+        This led me to further explore HTML and CSS through platforms like MySpace. Initially,<br>
+        I didn't realize that coding could be a viable career path. Instead, I embarked on a <br>
+        journey in veterinary medicine and healthcare, honing my skills in relationship building,<br> 
+        problem-solving, and cross-team collaboration. Known for my friendly and easy-going <br>
+        nature, I thrive in collaborative environments.<br>
 
       <br>
-        Recently, I successfully completed a 14-week full stack <br>
-        software development bootcamp,at Tech Elevator, equipping <br>
-        me with a comprehensive skill set. I am currently undergoing <br>
-        technical mentorship with Hanawilo, to accelerate and better<br>
-        my software development skill sets in full stack technologies.<br>
-         I'm eager to channel my love for coding and leverage my <br> 
-        abilities within avtechnology team. I aspire to contribute <br>
-        to the creation of customized products and foster continuous growth.<br>
+        Recently, I successfully completed a 14-week full stack software development bootcamp,<br> 
+        at Tech Elevator, equipping me with a comprehensive skill set. I am currently undergoing <br>
+        technical mentorship with Hanawilo, to accelerate and better my software development skill  <br> 
+        sets in full stack technologies. I'm eager to channel my love for coding and leverage my <br> 
+        abilities within avtechnology team. I aspire to contribute to the creation of customized <br> 
+        products and foster continuous growth.<br>
         <br>
 
-        If you're seeking a passionate and skilled addition to your <br>
-        team, I'm excited to explore opportunities with you!<br>
+        If you're seeking a passionate and skilled addition to your team, I'm excited to explore <br>
+        opportunities with you!<br>
       </p>
     </div>
 
     <div class="techSkills">
       <h3>TECHNICAL SKILLS</h3>
       <p>
-        Web Application Development: Java, HTML, CSS, JavaScript, <br>
-        Spring Boot, Vue.js <br>
+        Web Application Development: Java, HTML, CSS, JavaScript, Spring Boot, Vue.js
         <br />
-        Database Programming: JDBC, Table Design, SQL, PostgreSQL, E/R diagrams <br>
+        Database Programming: JDBC, Table Design, SQL, PostgreSQL, E/R diagrams
         <br />
         Development tools and techniques: Agile, Unit Testing (JUnit), Integration Testing, Git, IntelliJ
       </p>
@@ -65,7 +59,7 @@
 }
 
 .aboutMe {
-  margin-top: -150px;
+  margin-top: -60px;
 }
 
 .aboutMeName {
@@ -96,7 +90,7 @@
 .techSkills {
   margin-top: 0px;
   font-size: 16px;
-  margin-right: 3500px;
+  margin-right: 500px;
   text-align: left;
 }
 .aboutMeTitle {
@@ -112,7 +106,7 @@ text-align: left;
 
   .aboutMeTitle {
     margin-right: 0;
-    font-size: 3vw;
+    font-size: 2vw;
     text-align: left;
   }
 
@@ -125,7 +119,7 @@ text-align: left;
 
   .techSkills {
     margin-right: 0;
-    font-size: 2.5vw;
+    font-size: 1.5vw;
     text-align: left;
   }
 }
