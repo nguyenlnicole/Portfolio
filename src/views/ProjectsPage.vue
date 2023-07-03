@@ -103,6 +103,7 @@
   margin-right: 10px;
   margin-bottom: 20px;
   text-align: left;
+  font-size: 1.vw;
   
 }
 
