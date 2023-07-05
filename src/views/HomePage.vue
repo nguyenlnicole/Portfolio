@@ -14,7 +14,7 @@ export default {
 <style>
 .homeName {
   font-family:  Alegreya Sans Regular, sans-serif; 
-  font-size: 45px;
+  font-size: 55px;
   margin-top: 250px; 
   margin-right: 500px;
   
