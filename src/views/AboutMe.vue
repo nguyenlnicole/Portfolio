@@ -103,7 +103,7 @@ text-align: left;
   .aboutMeName {
     margin-top: -120px;
     margin-right: 0;
-    font-size: 30px;
+    font-size: 35px;
   }
 
   .aboutMeTitle {
