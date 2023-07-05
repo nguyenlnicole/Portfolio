@@ -99,7 +99,9 @@ text-align: left;
 }
 
 @media (max-width: 768px) {
+  
   .aboutMeName {
+    margin-top: -100px;
     margin-right: 0;
     font-size: 30px;
   }

@@ -33,6 +33,7 @@ export default {
     margin-right: 90px;
     text-align: center;
     font-size: 20px;
+    
   }
 
   .homeTitle {
@@ -40,6 +41,7 @@ export default {
     margin-right: 90px;
     text-align: center;
     font-size: 15px;
+    
   }
 }
 </style>
