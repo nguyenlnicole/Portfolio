@@ -101,18 +101,20 @@ text-align: left;
 @media (max-width: 768px) {
   
   .aboutMeName {
-    margin-top: -100px;
+    margin-top: -120px;
     margin-right: 0;
     font-size: 30px;
   }
 
   .aboutMeTitle {
+    
     margin-right: 0;
     font-size: 2vw;
     text-align: left;
   }
 
   .headshotImage {
+    margin-top: -70px;
     margin-right: 0;
     width: 140px; 
     height: 190px; 
