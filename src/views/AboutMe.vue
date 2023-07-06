@@ -37,7 +37,7 @@
     <div class="techSkills">
       <h3>TECHNICAL SKILLS</h3>
       <p>
-        Web Application Development: Java, HTML, CSS, JavaScript, Spring Boot, Vue.js
+        Web Application Development: Java, HTML, CSS, JavaScript, Spring Boot, Vue.js, ReactJS
         <br />
         Database Programming: JDBC, Table Design, SQL, PostgreSQL, E/R diagrams
         <br />
