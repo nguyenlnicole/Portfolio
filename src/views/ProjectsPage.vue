@@ -11,7 +11,7 @@
       where users can ask questions, only to receive sassy responses with or without a real answers. <br>
       The interface is styled to look similar to ChatGPT. We also made it to react like ChatGPT <br>
       by remembering conversations. Our project showcases the power of Java, postgreSQL, SQL, <br>
-      API integration, HTML, CSS, and JavaScript. <br>
+      API integration, ReactJs, HTML, CSS, and JavaScript. <br>
       
     </div>
 
@@ -23,7 +23,7 @@
       potential pet adopters with available pets, facilitates volunteer sign-ups, displays detailed <br>
       pet listings and shelter information. Additionally, the website includes robust admin features,<br>
        allowing administrators to effortlessly add new pets, approve volunteers, update pet statuses,<br> 
-       all made possible through the implementation of Java, ReactJs, HTML, CSS, JavaScript, JDBC, SQL, <br>
+       all made possible through the implementation of Java, HTML, CSS, JavaScript, JDBC, SQL, <br>
        PostgreSQL, Vue.js, Spring Boot, and API integration. <br>
 
     </div>
