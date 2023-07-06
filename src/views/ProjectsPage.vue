@@ -23,7 +23,7 @@
       potential pet adopters with available pets, facilitates volunteer sign-ups, displays detailed <br>
       pet listings and shelter information. Additionally, the website includes robust admin features,<br>
        allowing administrators to effortlessly add new pets, approve volunteers, update pet statuses,<br> 
-       all made possible through the implementation of Java, HTML, CSS, JavaScript, JDBC, SQL, <br>
+       all made possible through the implementation of Java, ReactJs, HTML, CSS, JavaScript, JDBC, SQL, <br>
        PostgreSQL, Vue.js, Spring Boot, and API integration. <br>
 
     </div>
