@@ -25,7 +25,7 @@
         at Tech Elevator, equipping me with a comprehensive skill set. I am currently undergoing <br>
         technical mentorship with Hanawilo, to accelerate and better my software development skill  <br> 
         sets in full stack technologies. I'm eager to channel my love for coding and leverage my <br> 
-        abilities within avtechnology team. I aspire to contribute to the creation of customized <br> 
+        abilities within a technology team. I aspire to contribute to the creation of customized <br> 
         products and foster continuous growth.<br>
         <br>
 
