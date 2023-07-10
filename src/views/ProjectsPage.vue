@@ -136,7 +136,7 @@
   color: #A67B5B;
 }
 .flashCards a:link,
-.flashCard sa:visited {
+.flashCard a:visited {
   color: #5e391bef;
 }
 
