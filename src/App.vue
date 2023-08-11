@@ -1,4 +1,4 @@
-<template>
+npm<template>
   <div id="app">
     <img :src="require('./flowerLogoNew.png')" alt="Flower Logo" class="flower-logo">
     <nav class="nav-container">
