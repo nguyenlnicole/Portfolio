@@ -6,7 +6,7 @@
 
 <div class="scrollBox">
     <div class="chatRHN">
-      <a href="https://github.com/raulharo/ChatRHN" target="_blank">ChatRHN (In progress)</a><br>
+      <a href="https://github.com/raulharo/ChatRHN" target="_blank">ChatRHN </a><br>
       Paired-programming webpage application. This application is the sassy version of ChatGPT <br>
       where users can ask questions, only to receive sassy responses with or without a real answers. <br>
       The interface is styled to look similar to ChatGPT. We also made it to react like ChatGPT <br>
