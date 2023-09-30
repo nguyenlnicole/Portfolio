@@ -9,7 +9,7 @@
       <a href="https://github.com/raulharo/ChatRHN" target="_blank">ChatRHN</a><br>
       Paired-programming webpage application. This application is the sassy version of ChatGPT <br>
       where users can ask questions, only to receive sassy responses with or without a real answers. <br>
-      The interface is styled to look similar to ChatGPT. We also made it to react like ChatGPT <br>
+      The interface is styled to look similar to ChatGPT. We also made the introduction to react like ChatGPT <br>
       by remembering conversations until you end the conversation. Our project showcases the power of <br>
       Java, Spring Boot, JSON, API integration, ReactJs, JSX, CSS, and JavaScript. <br>
       
