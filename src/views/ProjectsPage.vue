@@ -9,11 +9,11 @@
       <div class="chatRHN">
       <a href="https://github.com/nguyenlnicole/peakAlphaTesto" target="_blank">EverPure</a><br>
       <a href="https://everpure.uspwin.com/" target="_blank">EverPure Webpage</a><br>
-      Paired-programmed web application developed in Visual Studio designed to connect<br>
-      patients seeking aesthetic and beauty treatments with qualified providers. The platform <br>
-      allows users to explore various procedures offered, enhancing patient engagement and streamlining the <br>
-      consultation process. Built using a full-stack tech stack, it leverages JavaScript, React.js, JSX, HTML, and <br>
-      CSS on the frontend, with Java and Spring Boot powering the backend and Node.js providing server-side  <br>
+      Paired-programmed web application developed in Visual Studio designed to connectpatients <br>
+      seeking aesthetic and beauty treatments with qualified providers. The platform allows <br>
+      users to explore various procedures offered, enhancing patient engagement and streamlining the <br>
+      consultation process. Built using a full-stack tech stack, it leverages JavaScript, React.js, JSX, HTML,  <br>
+      and CSS on the frontend, with Java and Spring Boot powering the backend and Node.js providing server-side  <br>
       support. REST APIs were used to enable seamless communication between the frontend and backend, <br>
       ensuring smooth data flow and user interaction. The application emphasizes a clean, responsive interface <br>
       and intuitive provider-patient engagement. <br>
