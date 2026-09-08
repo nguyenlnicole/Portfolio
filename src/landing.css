@@ -150,3 +150,79 @@ a:focus-visible, summary:focus-visible { outline: 2px solid var(--ink); outline-
   .code-signature svg { width: 34px; }
   .code-signature span { display: none; }
 }
+/* 18 — Content reflows inside the space beside the navigation. */
+@media (max-width: 1100px) {
+  .about-intro { grid-template-columns: minmax(140px, 26%) minmax(0, 1fr); gap: 22px; }
+  .skills-section { margin-left: 0; }
+  .skill-row { grid-template-columns: 145px minmax(0, 1fr); }
+  .project-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .contact-grid { gap: 24px; }
+  .contact-link { gap: 10px; padding-right: 12px; font-size: 16px; }
+}
+@media (max-width: 900px) {
+  .home-page { padding-left: 0; }
+  .eyebrow { font-size: 17px; letter-spacing: 3px; gap: 14px; }
+  .eyebrow > span { width: 80px; }
+  .role { font-size: 20px; letter-spacing: 4px; }
+  .introduction { font-size: 23px; }
+  .desktop-break { display: none; }
+  .hero-actions { gap: 15px; }
+  .hero-button { font-size: 20px; padding-inline: 22px; }
+  .about-intro { grid-template-columns: 1fr; }
+  .portrait-frame { width: min(65%, 260px); margin: 0 auto 10px; }
+  .about-copy .script-heading { font-size: 45px; }
+  .work-grid, .contact-grid { grid-template-columns: 1fr; }
+  .experience-heading { margin-left: 0; }
+  .experience-heading .eyebrow { margin-left: 0; }
+  .contact-page { padding-top: 25px; }
+  .contact-page .introduction { font-size: 21px; }
+}
+@media (max-width: 700px) {
+  .project-grid { grid-template-columns: 1fr; }
+  .skill-row { grid-template-columns: 1fr; gap: 5px; padding-block: 10px; }
+}
+@media (max-width: 600px) {
+  .home-page { padding: 28px 0 25px; }
+  .hero-title { letter-spacing: -1px; margin-left: -4px; }
+  .home-page .hero-title { font-size: 17cqw; margin-block: 15px; }
+  .role { font-size: 16px; letter-spacing: 2px; }
+  .eyebrow { flex-wrap: wrap; font-size: 15px; letter-spacing: 2.5px; }
+  .eyebrow > span { width: 45px; }
+  .introduction { margin-top: 23px; font-size: 21px; }
+  .hero-button { width: 100%; min-height: 55px; gap: 12px; padding: 11px 15px; font-size: 17px; }
+  .hero-button svg { width: 23px; }
+  .heading-with-line { gap: 10px; }
+  .heading-with-line > span { display: none; }
+  .about-copy .script-heading { font-size: 39px; }
+  .about-copy p { font-size: 17px; line-height: 1.4; }
+  .portrait-frame { width: min(95%, 260px); }
+  .skills-section .script-heading { font-size: 37px; }
+  .tags { gap: 5px; }
+  .tags li { padding-inline: 9px; }
+  .experience-heading { margin: 0 0 25px; }
+  .experience-heading .script-heading { font-size: 49px; }
+  .experience-heading .eyebrow { font-size: 12px; letter-spacing: 2px; }
+  .section-heading { font-size: 23px; }
+  .experience-card { padding: 14px; }
+  .experience-card h3 { font-size: 25px; }
+  .experience-card .card-kicker { font-size: 12px; letter-spacing: 1.2px; }
+  .contact-page { padding: 20px 0; }
+  .contact-page .hero-title { font-size: 22cqw; margin-top: 20px; }
+  .contact-grid { gap: 28px; margin-top: 25px; }
+  .contact-grid .section-heading { font-size: 23px; }
+  .contact-link { gap: 9px; padding: 10px; border-radius: 22px; font-size: 14px; }
+  .contact-icon { flex-basis: 28px; width: 28px; height: 28px; }
+  .contact-icon svg { width: 19px; height: 19px; }
+  .linkedin-icon { font-size: 21px; }
+  .link-arrow { font-size: 23px; }
+  .resume-link { width: 100%; padding: 11px 14px; gap: 10px; font-size: 15px; }
+}
+@media (max-width: 359px) {
+  :root { --gutter: 14px; --rail: 105px; }
+  .side-nav { right: 7px; width: 90px; }
+  .nav-link { font-size: 15px; }
+  .nav-link.router-link-exact-active { font-size: 22px; }
+  .creative-note { gap: 6px; letter-spacing: .8px; }
+  .experience-heading .script-heading { font-size: 42px; }
+  .hero-button { font-size: 16px; padding-inline: 12px; }
+}
