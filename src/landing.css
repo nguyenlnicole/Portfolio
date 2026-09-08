@@ -18,3 +18,13 @@ body { margin: 0; color: var(--ink); background: var(--paper); font-family: 'Por
 p { margin: 0 0 12px; }
 a { color: inherit; }
 svg { display: block; }
+/* 02 — The same floral frame and header on every route. */
+.brand-link { position: absolute; top: 7px; left: 12px; z-index: 3; width: clamp(76px, 8vw, 120px); border-radius: 50%; }
+.flower-logo { display: block; width: 100%; height: auto; filter: brightness(.78) saturate(.55); }
+.corner { position: fixed; z-index: -1; pointer-events: none; color: var(--petal); }
+.corner svg { width: 100%; height: 100%; }
+.corner-top { top: 0; right: -18px; width: 155px; height: 390px; }
+.corner-bottom { bottom: 0; left: 0; width: 370px; height: 275px; }
+.contour { stroke: var(--rose); stroke-width: 2; }
+.creative-note { position: absolute; top: 17px; right: 4%; display: flex; align-items: center; gap: 19px; font-size: 12px; letter-spacing: 3px; text-transform: uppercase; color: var(--muted); }
+.creative-note i { width: 110px; height: 1px; background: var(--rose); }
