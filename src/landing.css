@@ -226,3 +226,10 @@ a:focus-visible, summary:focus-visible { outline: 2px solid var(--ink); outline-
   .experience-heading .script-heading { font-size: 42px; }
   .hero-button { font-size: 16px; padding-inline: 12px; }
 }
+/* 19 — Motion preferences and keyboard navigation. */
+.skip-link { position: fixed; top: 10px; left: 10px; z-index: 10; transform: translateY(-160%); padding: 10px 16px; border-radius: 8px; background: var(--paper); color: var(--ink); }
+.skip-link:focus { transform: translateY(0); }
+#main-content:focus { outline: none; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; }
+}
