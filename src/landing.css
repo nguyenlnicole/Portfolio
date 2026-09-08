@@ -118,3 +118,35 @@ a:focus-visible, summary:focus-visible { outline: 2px solid var(--ink); outline-
 .resume-link { display: flex; align-items: center; gap: 20px; width: fit-content; max-width: 100%; min-height: 54px; margin-top: 18px; padding: 11px 20px; border: 1px solid var(--muted); border-radius: 99px; font-family: Georgia, 'Times New Roman', serif; font-size: 17px; text-decoration: none; }
 .resume-link svg { width: 24px; }
 .resume-link:hover { background: var(--petal); }
+/* 17 — The navigation stays vertical on the right, including on phones. */
+@media (max-width: 900px) {
+  :root { --rail: 150px; --gutter: 30px; }
+  .side-nav { right: 15px; width: 120px; gap: 20px; }
+  .nav-link { font-size: 21px; }
+  .nav-link.router-link-exact-active { font-size: 30px; }
+  .nav-link.router-link-exact-active::before { width: 17px; right: calc(100% + 7px); }
+  .brand-link { width: 75px; }
+  .creative-note { gap: 12px; font-size: 12px; letter-spacing: 2px; }
+  .creative-note i { width: 60px; }
+  .page-content { padding-top: 110px; padding-right: calc(var(--rail) + 10px); }
+  .site-footer { padding-right: calc(var(--rail) + 10px); padding-left: var(--gutter); }
+  .footer-note span { display: none; }
+  .code-signature span { width: 50px; }
+}
+@media (max-width: 600px) {
+  :root { --rail: 114px; --gutter: 20px; }
+  .brand-link { top: 12px; left: 14px; width: 65px; }
+  .creative-note { top: 93px; left: var(--gutter); right: auto; gap: 9px; letter-spacing: 1.2px; }
+  .creative-note i { display: none; }
+  .side-nav { top: 175px; right: 10px; width: 96px; gap: 18px; }
+  .nav-link { font-size: 16px; min-height: 44px; }
+  .nav-link.router-link-exact-active { font-size: 24px; }
+  .nav-link.router-link-exact-active::before { width: 9px; height: 2px; right: calc(100% + 4px); }
+  .page-content { padding-top: 145px; padding-bottom: 35px; }
+  .corner-top { width: 80px; right: -25px; }
+  .corner-bottom { width: 270px; height: 205px; }
+  .site-footer { gap: 10px; padding-bottom: 20px; }
+  .footer-note { font-size: 12px; letter-spacing: 1.2px; }
+  .code-signature svg { width: 34px; }
+  .code-signature span { display: none; }
+}
