@@ -1,130 +1,43 @@
 <template>
-  <div class="container">
-    <div class="aboutMe">
-      <h1 class="aboutMeName">About Me</h1>
+  <section class="about-page" aria-labelledby="about-title">
+    <div class="about-intro">
+      <div class="portrait-frame">
+        <img :src="require('./nicolesHeadshot.png')" alt="Nicole Nguyen smiling in a pink blouse" class="portrait" width="534" height="667">
+      </div>
+      <div class="about-copy">
+        <h1 id="about-title" class="script-heading heading-with-line">A Little About Me <span aria-hidden="true"></span></h1>
+        <p>I’ve been coding since before I even knew what software development was. Back in the Xanga and MySpace days, I was customizing layouts, changing backgrounds, and working with HTML and CSS because I really enjoyed creating custom designs and figuring out how things worked.</p>
+        <p>My path into tech was not exactly a straight line. I originally went into the medical field, realized it was not the right fit for me, and eventually found my way back to development. I no longer just work with HTML and CSS. I’ve progressed into building full stack applications using Java, Spring Boot, REST APIs, SQL, Angular, TypeScript, and JavaScript.</p>
+        <p>But I didn’t stop there. As new languages, tools, and technologies became more popular, I adapted and kept learning. My skill set has expanded to include Python, data science, machine learning, deep learning, natural language processing, generative AI, prompt engineering, large language models, agentic AI, and Microsoft Azure AI.</p>
+        <p>Although I enjoy working across the stack, I always find myself coming back to my roots. UI is where I really shine. I love turning ideas and mockups into polished, responsive, and intuitive experiences, while paying attention to the small details that make a design feel complete.</p>
+      </div>
     </div>
 
-    <div class="imageContainer">
-      <img :src="require('@/views/nicolesHeadshot.png')" alt="Nicole's Headshot" class="headshotImage" />
-    </div>
-
-
-
-    <div class="aboutMeTitle">
-      <p>
-        Hello, I'm Nicole Nguyen. My passion for coding blossomed during my early encounters <br>
-        with Xanga, where I discovered the joy of customizing backgrounds using HTML and CSS. <br>
-        This led me to further explore HTML and CSS through platforms like MySpace. Initially,<br>
-        I didn't realize that coding could be a viable career path. Instead, I embarked on a <br>
-        journey in veterinary medicine and healthcare, honing my skills in relationship building,<br> 
-        problem-solving, and cross-team collaboration. Known for my friendly and easy-going <br>
-        nature, I thrive in collaborative environments.<br>
-
-      <br>
-        Recently, I successfully completed a 14-week full stack software development bootcamp,<br> 
-        at Tech Elevator, equipping me with a comprehensive skill set. I am currently undergoing <br>
-        technical mentorship with Hanawilo, to accelerate and better my software development skill  <br> 
-        sets in full stack technologies. I'm eager to channel my love for coding and leverage my <br> 
-        abilities within a technology team. I aspire to contribute to the creation of customized <br> 
-        products and foster continuous growth.<br>
-        <br>
-
-        If you're seeking a passionate and skilled addition to your team, I'm excited to explore <br>
-        opportunities with you!<br>
-      </p>
-    </div>
-
-    <div class="techSkills">
-      <h3>TECHNICAL SKILLS</h3>
-      <p>
-        Web Application Development: Java, HTML, CSS, JavaScript, Spring Boot, Vue.js, ReactJS
-        <br />
-        Database Programming: JDBC, Table Design, SQL, PostgreSQL, E/R diagrams
-        <br />
-        Development tools and techniques: Agile, Unit Testing (JUnit), Integration Testing, Git, IntelliJ
-      </p>
-    </div>
-
-
-  </div>
+    <section class="skills-section" aria-labelledby="skills-title">
+      <h2 id="skills-title" class="script-heading heading-with-line">Technical Skills <span aria-hidden="true"></span></h2>
+      <dl class="skills-list">
+        <div v-for="group in skillGroups" :key="group.name" class="skill-row">
+          <dt>{{ group.name }}</dt>
+          <dd><ul class="tags"><li v-for="skill in group.skills" :key="skill">{{ skill }}</li></ul></dd>
+        </div>
+      </dl>
+    </section>
+  </section>
 </template>
 
-<style>
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  margin-top:20px;
-}
-
-.aboutMe {
-  margin-top: -60px;
-}
-
-.aboutMeName {
-  font-family: DM Serif Text, sans-serif;
-  font-size: 35px;
-  margin-right: 500px;
-}
-
-.aboutMeTitle {
-  margin-top: -5px;
-  margin-right: 500px;
-}
-
-.imageContainer {
-  margin-top: -5px;
-}
-
-.headshotImage {
-  border-radius: 50%;
-  width: 200px;
-  height: 280px;
-  border: 5px solid hsl(34, 50%, 60%);
-  display: block;
-  margin: 0 auto;
-  margin-right: 500px;
-}
-
-.techSkills {
-  margin-top: 0px;
-  font-size: .95vw;
-  margin-right: 500px;
-  text-align: left;
-}
-.aboutMeTitle {
-font-size: .95vw;
-text-align: left;
-}
-
-@media (max-width: 768px) {
-  
-  .aboutMeName {
-    margin-top: -120px;
-    margin-right: 0;
-    font-size: 35px;
+<script>
+export default {
+  data() {
+    return {
+      skillGroups: [
+        { name: 'Front End', skills: ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'Angular', 'React', 'Responsive Design', 'UI Development'] },
+        { name: 'Back End', skills: ['Java', 'Spring Boot', 'REST APIs', 'JDBC'] },
+        { name: 'Databases', skills: ['SQL', 'PostgreSQL', 'Relational Database Design'] },
+        { name: 'AI & Machine Learning', skills: ['Python', 'Data Science', 'Machine Learning', 'Deep Learning', 'NLP', 'Generative AI', 'Prompt Engineering', 'Large Language Models', 'Agentic AI', 'Microsoft Azure AI'] },
+        { name: 'Development & Tools', skills: ['Git', 'GitHub', 'IntelliJ IDEA', 'Agile', 'JUnit', 'Unit Testing', 'Integration Testing', 'CI/CD', 'Debugging', 'Production Support'] },
+        { name: 'Strengths', skills: ['UI Implementation', 'Full Stack Development', 'API Development', 'Technical Troubleshooting', 'Cross Functional Collaboration'] }
+      ]
+    };
   }
-
-  .aboutMeTitle {
-    
-    margin-right: 0;
-    font-size: 2vw;
-    text-align: left;
-  }
-
-  .headshotImage {
-    margin-top: -70px;
-    margin-right: 0;
-    width: 140px; 
-    height: 190px; 
-    border-width: 3px;
-  }
-
-  .techSkills {
-    margin-right: 0;
-    font-size: 2vw;
-    text-align: left;
-  }
-}
-</style>
+};
+</script>
