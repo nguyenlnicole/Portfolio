@@ -1,7 +1,9 @@
-npm<template>
-  <div id="app">
-    <img :src="require('./flowerLogoNew.png')" alt="Flower Logo" class="flower-logo">
-    <nav class="nav-container">
+<template>
+  <div id="app" :class="{ 'landing-app': $route.name === 'homePage' }">
+    <router-link :to="{ name: 'homePage' }" class="brand-link" aria-label="Nicole Nguyen home">
+      <img :src="require('./flowerLogoNew.png')" alt="" class="flower-logo">
+    </router-link>
+    <nav class="nav-container" aria-label="Main navigation">
       <router-link :to="{ name: 'homePage' }" class="nav-link">Home</router-link><br>
       <router-link :to="{ name: 'aboutMe' }" class="nav-link">About</router-link><br>
       <router-link :to="{ name: 'projectsPage' }" class="nav-link">Projects</router-link><br>
