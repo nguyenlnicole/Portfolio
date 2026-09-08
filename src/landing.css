@@ -60,3 +60,9 @@ svg { display: block; }
 .hero-button:hover { transform: translateY(-2px); background: var(--petal); }
 .hero-button.primary:hover { background: #80625b; border-color: #80625b; }
 a:focus-visible, summary:focus-visible { outline: 2px solid var(--ink); outline-offset: 5px; }
+/* 08 — The landing page uses the shared frame. */
+.home-page { container-type: inline-size; padding: clamp(48px, 7.5vh, 100px) 0 60px 5%; }
+.hero-title { margin: 8px 0 4px -12px; font-size: clamp(40px, 15.5cqw, 160px); letter-spacing: -3px; }
+.home-page .hero-title { white-space: nowrap; }
+.role { margin: 0; color: var(--muted); font-size: 25px; letter-spacing: 7px; line-height: 1.6; text-transform: uppercase; }
+.introduction { margin: 28px 0 24px; font-size: 26px; line-height: 1.4; letter-spacing: .2px; }
