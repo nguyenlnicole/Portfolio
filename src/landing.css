@@ -52,3 +52,11 @@ svg { display: block; }
 .section-heading > span { max-width: none; }
 .tags { display: flex; flex-wrap: wrap; gap: 5px 8px; padding: 0; margin: 0; list-style: none; }
 .tags li { padding: 3px 13px; border-radius: 99px; background: var(--petal); color: #665650; font-family: Georgia, 'Times New Roman', serif; font-size: 14px; line-height: 1.25; }
+/* 06 — Shared actions, including visible keyboard focus. */
+.hero-actions { display: flex; flex-wrap: wrap; gap: 24px; }
+.hero-button { display: inline-flex; align-items: center; justify-content: space-between; gap: 25px; min-height: 59px; padding: 12px 30px; border: 1px solid var(--muted); border-radius: 99px; color: var(--muted); font-family: Georgia, 'Times New Roman', serif; font-size: 23px; text-decoration: none; transition: background-color .2s, transform .2s; }
+.hero-button.primary { color: #fffdf8; background: #8f7069; border-color: #8f7069; }
+.hero-button svg, .resume-link svg { flex: 0 0 auto; width: 30px; height: 26px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+.hero-button:hover { transform: translateY(-2px); background: var(--petal); }
+.hero-button.primary:hover { background: #80625b; border-color: #80625b; }
+a:focus-visible, summary:focus-visible { outline: 2px solid var(--ink); outline-offset: 5px; }
