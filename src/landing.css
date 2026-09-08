@@ -66,3 +66,17 @@ a:focus-visible, summary:focus-visible { outline: 2px solid var(--ink); outline-
 .home-page .hero-title { white-space: nowrap; }
 .role { margin: 0; color: var(--muted); font-size: 25px; letter-spacing: 7px; line-height: 1.6; text-transform: uppercase; }
 .introduction { margin: 28px 0 24px; font-size: 26px; line-height: 1.4; letter-spacing: .2px; }
+/* 11 — Portrait, biography, and technical skill rows. */
+.about-intro { display: grid; grid-template-columns: minmax(160px, 27%) minmax(0, 1fr); gap: 35px; align-items: start; }
+.portrait-frame { position: relative; margin-top: 20px; padding: 9px; border: 1px solid #ba968c; border-radius: 46% 40% 30% 25% / 35% 38% 20% 25%; background: #ead9d1; transform: rotate(-3deg); }
+.portrait { display: block; width: 100%; height: auto; aspect-ratio: 534 / 667; object-fit: cover; border-radius: 44% 38% 28% 23% / 33% 36% 19% 23%; transform: rotate(3deg); }
+.about-copy { min-width: 0; }
+.about-copy .script-heading { font-size: clamp(36px, 4.5vw, 61px); }
+.about-copy p { font-size: 17px; line-height: 1.3; }
+.skills-section { margin: 18px 0 0 15%; }
+.skills-section .script-heading { font-size: 44px; margin-bottom: 5px; }
+.skills-list { margin: 0; }
+.skill-row { display: grid; grid-template-columns: 175px minmax(0, 1fr); align-items: start; gap: 12px; padding: 5px 0; border-bottom: 1px solid #eadfd7; }
+.skill-row:last-child { border-bottom: 0; }
+.skill-row dt { padding-top: 4px; font-size: 12px; letter-spacing: 2px; text-transform: uppercase; color: var(--muted); }
+.skill-row dd { margin: 0; min-width: 0; }
