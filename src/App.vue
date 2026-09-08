@@ -1,109 +1,47 @@
 <template>
-  <div id="app" :class="{ 'landing-app': $route.name === 'homePage' }">
+  <div class="site-shell">
+    <a class="skip-link" href="#main-content">Skip to content</a>
     <router-link :to="{ name: 'homePage' }" class="brand-link" aria-label="Nicole Nguyen home">
       <img :src="require('./flowerLogoNew.png')" alt="" class="flower-logo">
     </router-link>
-    <nav class="nav-container" aria-label="Main navigation">
-      <router-link :to="{ name: 'homePage' }" class="nav-link">Home</router-link><br>
-      <router-link :to="{ name: 'aboutMe' }" class="nav-link">About</router-link><br>
-      <router-link :to="{ name: 'projectsPage' }" class="nav-link">Projects</router-link><br>
-      <router-link :to="{ name: 'contactInfo' }" class="nav-link">Contact</router-link><br>
+
+    <div class="corner corner-top" aria-hidden="true">
+      <svg viewBox="0 0 160 390" fill="none">
+        <path d="M72 0H160V183C103 158 48 126 54 57Z" fill="currentColor" />
+        <path d="M148 7C67 107 165 133 133 236C113 297 110 328 151 380" class="contour" />
+      </svg>
+    </div>
+    <div class="corner corner-bottom" aria-hidden="true">
+      <svg viewBox="0 0 390 290" fill="none">
+        <path d="M0 0C103 9 66 154 184 165C263 168 330 179 390 290H0Z" fill="currentColor" />
+        <path d="M0 73C77 76 68 162 158 192C211 209 256 233 283 290" class="contour" />
+      </svg>
+    </div>
+
+    <div class="creative-note" aria-label="Create, develop, learn, grow">
+      <span>Create</span><span aria-hidden="true">/</span>
+      <span>Develop</span><span aria-hidden="true">/</span>
+      <span>Learn</span><span aria-hidden="true">/</span>
+      <span>Grow</span><i aria-hidden="true"></i>
+    </div>
+
+    <nav class="side-nav" aria-label="Main navigation">
+      <router-link :to="{ name: 'homePage' }" class="nav-link">Home</router-link>
+      <router-link :to="{ name: 'aboutMe' }" class="nav-link">About</router-link>
+      <router-link :to="{ name: 'experiencesPage' }" class="nav-link">Experiences</router-link>
+      <router-link :to="{ name: 'contactInfo' }" class="nav-link">Contact</router-link>
     </nav>
 
-    <router-view></router-view>
+    <main id="main-content" class="page-content" tabindex="-1">
+      <router-view />
+    </main>
+
+    <footer class="site-footer">
+      <p class="footer-note">Turn ideas<br>into something beautiful <span aria-hidden="true"></span></p>
+      <div class="code-signature" aria-hidden="true">
+        <svg viewBox="0 0 64 46"><path d="m15 11-12 11 12 10M49 11l12 11-12 10M39 2 25 44" /></svg>
+        <span></span>
+      </div>
+    </footer>
   </div>
 </template>
-
-<style>
-body {
-  background-color: #eee1c5;
-}
-
-#app {
-  font-family: DM Serif Text, Alegreya Sans Regular, Alegreya Sans Medium, Alegreya Sans Light, Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #080c0f;
-  margin-top: 60px;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start; 
-  min-height: 100vh;
-}
-
-.flower-logo {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  width: 160px;
-  height: auto;
-}
-
-.nav-container {
-  position: absolute;
-  top: 250px;
-  right: 30px;
-  max-width: 300px;
-  text-align: left;
-}
-
-.nav-link {
-  margin-bottom: 10px;
-  text-decoration: none;
-  color: #ac774f;
-  display: block;
-  transition: transform 0.3s ease;
-  font-size: 50px;
-}
-
-.nav-link:hover {
-  transform: translateX(10px);
-}
-
-.home-page {
-  font-family: "DM Serif Text Italic", sans-serif;
-}
-
-.about-page {
-  font-family: "Font2", sans-serif;
-}
-
-.projects-page {
-  font-family: "Font3", sans-serif;
-}
-
-.contact-page {
-  font-family: "Font4", sans-serif;
-}
-
-@media (max-width: 768px) {
-  #app {
-    align-items: center; 
-  }
-
-  .nav-container {
-    position: absolute;
-    top: 250px;
-    right: -10;
-    margin-top: -60px;
-    text-align: left; 
-  }
-
-  .nav-link {
-    margin-left: 0; 
-    font-size: 16px;
-  }
-.flower-logo {
-  width: 120px;
-}
-
-}
-</style>
-
-
-
-
-
-
-
