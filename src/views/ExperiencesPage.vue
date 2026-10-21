@@ -66,7 +66,7 @@ export default {
             { src: require('../assets/projects/resume-feedback.webp'), alt: 'Resume presentation score and detailed feedback' },
             { src: require('../assets/projects/resume-experience.webp'), alt: 'Resume builder experience entry form' }
           ],
-          description: 'A full stack resume builder and review app for coaches and job seekers, featuring personalized feedback, job matching, and interview preparation.',
+          description: 'A resume builder and review app for coaches and job seekers, with personalized feedback, job matching, and interview preparation.',
           links: [
             { label: 'View Code', url: 'https://github.com/nguyenlnicole/Resume-Prospective-Coach-Mentor-Indivdual' }
           ],
@@ -79,7 +79,7 @@ export default {
             { src: require('../assets/projects/everpure-services.png'), alt: 'EverPure services page' },
             { src: require('../assets/projects/everpure-payments.png'), alt: 'EverPure payment options page' }
           ],
-          description: 'A full stack healthcare web app connecting patients with aesthetic treatment providers, including procedure browsing and consultation booking.',
+          description: 'A full stack healthcare web app connecting patients with aesthetic treatment providers, with service browsing, consultation booking, newsletter signup, and flexible payment information.',
           links: [
             { label: 'Live Demo', url: 'https://nguyenlnicole.github.io/peakAlphaTesto/' },
             { label: 'View Code', url: 'https://github.com/nguyenlnicole/peakAlphaTesto' }
@@ -88,7 +88,7 @@ export default {
         },
         {
           name: 'PNB Paws',
-          description: 'A custom ecommerce and product website built for PNB Paws, focused on clear branding, product presentation, and a polished user experience.',
+          description: 'A custom ecommerce and product website for PNB Paws, showcasing neonatal feeding supplies through clear branding, detailed product presentation, and a responsive layout that makes browsing simple.',
           links: [],
           tags: ['UI Development', 'Responsive Design', 'Branding', 'Front End']
         }
