@@ -66,7 +66,7 @@ export default {
             { src: require('../assets/projects/resume-feedback.webp'), alt: 'Resume presentation score and detailed feedback' },
             { src: require('../assets/projects/resume-experience.webp'), alt: 'Resume builder experience entry form' }
           ],
-          description: 'I built a full stack resume review application for coaches, mentors, and individual job seekers. It brings together resume feedback, job-description matching, resume comparisons, cover letters, and interview preparation, with PDF and Word downloads and saved review progress. The project includes a React interface, a Java and Spring Boot backend, an Electron desktop client, and an Android launcher.',
+          description: 'A full stack resume builder and review app for coaches and job seekers, featuring personalized feedback, job matching, and interview preparation.',
           links: [
             { label: 'View Code', url: 'https://github.com/nguyenlnicole/Resume-Prospective-Coach-Mentor-Indivdual' }
           ],
