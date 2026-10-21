@@ -92,11 +92,13 @@ a:focus-visible, summary:focus-visible { outline: 2px solid var(--ink); outline-
 .card-kicker > span { padding: 0 8px; }
 .experience-card > .tags { margin-top: auto; }
 .built-section { margin-top: 20px; }
-.project-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 15px; }
-.project-card { padding: 15px; }
-.project-card h3 { font-size: 24px; }
+.project-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+.project-card { padding: 12px; }
+.project-card h3 { font-size: 22px; }
+.project-card p { font-size: 14px; line-height: 1.35; }
+.project-card .card-kicker { font-size: 11px; letter-spacing: 1px; }
 .project-card .tags { padding-top: 10px; border-top: 1px solid #e5d6ce; }
-.project-card .tags li { font-size: 14px; padding-inline: 10px; }
+.project-card .tags li { font-size: 12px; padding-inline: 8px; }
 .project-links { display: flex; flex-wrap: wrap; gap: 8px 20px; margin: auto 0 12px; }
 .project-links a { font-family: Georgia, 'Times New Roman', serif; font-size: 14px; text-underline-offset: 3px; }
 .project-links a span { display: inline-block; margin-left: 8px; font-size: 20px; text-decoration: none; }
