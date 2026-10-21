@@ -70,7 +70,7 @@ export default {
           links: [
             { label: 'View Code', url: 'https://github.com/nguyenlnicole/Resume-Prospective-Coach-Mentor-Indivdual' }
           ],
-          tags: ['Java', 'Spring Boot', 'React', 'Electron', 'Android']
+          tags: ['Java', 'Spring Boot', 'React', 'Electron']
         },
         {
           name: 'EverPure',
