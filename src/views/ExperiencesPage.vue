@@ -75,7 +75,7 @@ export default {
           name: 'EverPure',
           description: 'A full stack healthcare web app connecting patients with aesthetic treatment providers, including procedure browsing and consultation booking.',
           links: [
-            { label: 'Live Site', url: 'https://everpure.uspwin.com/' },
+            { label: 'Live Demo', url: 'https://nguyenlnicole.github.io/peakAlphaTesto/' },
             { label: 'View Code', url: 'https://github.com/nguyenlnicole/peakAlphaTesto' }
           ],
           tags: ['Java', 'Spring Boot', 'React', 'REST APIs']
