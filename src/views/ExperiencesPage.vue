@@ -9,6 +9,12 @@
       <h2 id="work-title" class="section-heading heading-with-line">Where I’ve Worked <span aria-hidden="true"></span></h2>
       <div class="work-grid">
         <article class="experience-card">
+          <h3>Percruit</h3>
+          <p class="card-kicker">Software Engineering Mentor &amp; Career Coach <span aria-hidden="true">/</span> Contract <span aria-hidden="true">/</span> September 2026 to Present</p>
+          <p>I help aspiring software engineers build their coding skills and prepare for their next role. I conduct technical mock interviews and give detailed feedback on coding ability, problem-solving, technical communication, and interview performance. Through live coding sessions, technical instruction, debugging support, and hands-on practice, I teach software engineering fundamentals. I also review and edit resumes and coach students on technical interview preparation, professional presentation, and job-search readiness.</p>
+          <ul class="tags"><li>Technical Mentoring</li><li>Career Coaching</li><li>Mock Interviews</li><li>Live Coding</li><li>Resume Review</li></ul>
+        </article>
+        <article class="experience-card">
           <h3>Accenture</h3>
           <p class="card-kicker">Software Engineer <span aria-hidden="true">/</span> August 2023 to July 2026</p>
           <p>During my three years at Accenture, I worked on enterprise applications across both backend and frontend development. I helped modernize a mission critical loan application by developing and maintaining REST APIs with Java and Spring Boot, troubleshooting production issues, and supporting application upgrades. I also worked with Angular and TypeScript on frontend components, participated in technical discovery for legacy systems, and collaborated across engineering teams to turn technical findings into actionable development work.</p>
@@ -48,6 +54,14 @@ export default {
     return {
       featuredProjects: [
         {
+          name: 'PNB Resume Prospective', subtitle: 'Coach & Mentor and Individual editions',
+          description: 'I built a full stack resume review application for coaches, mentors, and individual job seekers. It brings together resume feedback, job-description matching, resume comparisons, cover letters, and interview preparation, with PDF and Word downloads and saved review progress. The project includes a React interface, a Java and Spring Boot backend, an Electron desktop client, and an Android launcher.',
+          links: [
+            { label: 'View Code', url: 'https://github.com/nguyenlnicole/Resume-Prospective-Coach-Mentor-Indivdual' }
+          ],
+          tags: ['Java', 'Spring Boot', 'React', 'Electron', 'Android']
+        },
+        {
           name: 'Pet Shelter Web Page', subtitle: 'My first full stack application',
           description: 'This project was where everything started coming together for me. I worked with a team to build a pet adoption platform with pet listings, volunteer sign ups, and admin tools for managing pets and approvals.',
           links: [
@@ -77,3 +91,4 @@ export default {
   }
 };
 </script>
+
