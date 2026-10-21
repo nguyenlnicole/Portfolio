@@ -36,6 +36,11 @@
           <h3>{{ project.name }}</h3>
           <p v-if="project.subtitle" class="card-kicker">{{ project.subtitle }}</p>
           <p>{{ project.description }}</p>
+          <div v-if="project.screenshots" class="project-gallery" tabindex="0" role="region" :aria-label="`${project.name} screenshots; scroll horizontally to browse`">
+            <a v-for="photo in project.screenshots" :key="photo.src" :href="photo.src" target="_blank" rel="noopener noreferrer" :aria-label="`${photo.alt} (opens full image in a new tab)`">
+              <img :src="photo.src" :alt="photo.alt" loading="lazy">
+            </a>
+          </div>
           <div v-if="project.links.length" class="project-links">
             <a v-for="link in project.links" :key="link.url" :href="link.url" target="_blank" rel="noopener noreferrer" :aria-label="`${project.name}: ${link.label} (opens in a new tab)`">{{ link.label }} <span aria-hidden="true">→</span></a>
           </div>
@@ -73,6 +78,11 @@ export default {
         },
         {
           name: 'EverPure',
+          screenshots: [
+            { src: require('../assets/projects/everpure-subscribe.png'), alt: 'EverPure newsletter signup on the home page' },
+            { src: require('../assets/projects/everpure-services.png'), alt: 'EverPure services page' },
+            { src: require('../assets/projects/everpure-payments.png'), alt: 'EverPure payment options page' }
+          ],
           description: 'A full stack healthcare web app connecting patients with aesthetic treatment providers, including procedure browsing and consultation booking.',
           links: [
             { label: 'Live Demo', url: 'https://nguyenlnicole.github.io/peakAlphaTesto/' },
