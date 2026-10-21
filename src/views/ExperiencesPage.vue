@@ -60,21 +60,17 @@ export default {
       featuredProjects: [
         {
           name: 'PNB Resume Prospective', subtitle: 'Coach & Mentor and Individual editions',
+          screenshots: [
+            { src: require('../assets/projects/resume-welcome.webp'), alt: 'Resume Prospective welcome page' },
+            { src: require('../assets/projects/resume-dashboard.webp'), alt: 'Resume upload and builder dashboard' },
+            { src: require('../assets/projects/resume-feedback.webp'), alt: 'Resume presentation score and detailed feedback' },
+            { src: require('../assets/projects/resume-experience.webp'), alt: 'Resume builder experience entry form' }
+          ],
           description: 'I built a full stack resume review application for coaches, mentors, and individual job seekers. It brings together resume feedback, job-description matching, resume comparisons, cover letters, and interview preparation, with PDF and Word downloads and saved review progress. The project includes a React interface, a Java and Spring Boot backend, an Electron desktop client, and an Android launcher.',
           links: [
             { label: 'View Code', url: 'https://github.com/nguyenlnicole/Resume-Prospective-Coach-Mentor-Indivdual' }
           ],
           tags: ['Java', 'Spring Boot', 'React', 'Electron', 'Android']
-        },
-        {
-          name: 'Pet Shelter Web Page', subtitle: 'My first full stack application',
-          description: 'This project was where everything started coming together for me. I worked with a team to build a pet adoption platform with pet listings, volunteer sign ups, and admin tools for managing pets and approvals.',
-          links: [
-            { label: 'Live Site', url: 'https://nguyenlnicole.github.io/PetShelterPage/' },
-            { label: 'View Java', url: 'https://github.com/nguyenlnicole/PetShelterWebpage' },
-            { label: 'View Vue', url: 'https://github.com/nguyenlnicole/PetShelterPage' }
-          ],
-          tags: ['Java', 'Spring Boot', 'PostgreSQL', 'JDBC', 'Vue.js']
         },
         {
           name: 'EverPure',

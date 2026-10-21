@@ -92,13 +92,8 @@ a:focus-visible, summary:focus-visible { outline: 2px solid var(--ink); outline-
 .card-kicker > span { padding: 0 8px; }
 .experience-card > .tags { margin-top: auto; }
 .built-section { margin-top: 20px; }
-.project-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
-.project-card { padding: 12px; }
-.project-card h3 { font-size: 22px; }
-.project-card p { font-size: 14px; line-height: 1.35; }
-.project-card .card-kicker { font-size: 11px; letter-spacing: 1px; }
+.project-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
 .project-card .tags { padding-top: 10px; border-top: 1px solid #e5d6ce; }
-.project-card .tags li { font-size: 12px; padding-inline: 8px; }
 .project-gallery { display: flex; flex-shrink: 0; gap: 8px; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: thin; scrollbar-color: var(--rose) var(--petal); padding: 0 0 8px; margin: 0 0 12px; }
 .project-gallery > a { flex: 0 0 88%; min-width: 0; scroll-snap-align: start; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
 .project-gallery img { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: contain; background: var(--petal); }
