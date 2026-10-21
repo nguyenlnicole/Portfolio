@@ -16,7 +16,7 @@
         </article>
         <article class="experience-card">
           <h3>Accenture</h3>
-          <p class="card-kicker">Software Engineer <span aria-hidden="true">/</span> August 2023 to July 2026</p>
+          <p class="card-kicker">Software Engineer <span aria-hidden="true">/</span> August 2023 to November 2025</p>
           <p>During my three years at Accenture, I worked on enterprise applications across both backend and frontend development. I helped modernize a mission critical loan application by developing and maintaining REST APIs with Java and Spring Boot, troubleshooting production issues, and supporting application upgrades. I also worked with Angular and TypeScript on frontend components, participated in technical discovery for legacy systems, and collaborated across engineering teams to turn technical findings into actionable development work.</p>
           <ul class="tags"><li>Java</li><li>Spring Boot</li><li>REST APIs</li><li>Angular</li><li>TypeScript</li></ul>
         </article>
